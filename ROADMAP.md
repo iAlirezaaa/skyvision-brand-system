@@ -6,6 +6,17 @@
 
 Establish one searchable and enforceable Sky Vision identity system that can be used independently by humans, AI agents, web teams and a **fully functional image-optional project-management app**.
 
+## One-by-one visual production program (added 2026-11-03)
+
+- [x] Publish an exhaustive versioned visual inventory of **166 individual images** in 14 families at [production backlog](production/ASSET_BACKLOG.md) with machine records.
+- [x] Define independent brief, export naming/ratios, review gates and approval statuses.
+- [ ] Review and upload BG-01 primary dark hero image, preserving provenance.
+- [ ] Only then create BG-02, BG-03, BG-04, followed by LG-01, CL-01 and MT-01 as **separate images**, one asset ID at a time.
+- [ ] Expand the inventory with new IDs rather than silently merging unrelated deliverables.
+- [ ] Import original raster concept archive (12 pending) only with public repository distribution rights checked.
+
+For each item: `queued → draft → review → approved`, where approval requires an explicit owner decision **and verified repository output**. Completion of a file or AI generation is not approval.
+
 ## Phase 0 — Archive and guardrails
 
 **Goal:** prevent loss of source images, decisions, product scope and brand intent.
