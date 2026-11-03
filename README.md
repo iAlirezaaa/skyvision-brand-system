@@ -34,3 +34,16 @@ Our reference images include a celestial original and exploratory LUNARA/ORBITRA
 This repository houses **working documentation and original vector motif proposals**. Some earlier raster concept boards are preserved in the accompanying local archive but may not yet be uploaded to this GitHub repository. The [asset register](assets/ASSET_REGISTER.md) distinguishes recorded source material from repository-hosted files.
 
 **License:** Not specified. No open-source reuse permission is granted by the presence of files in this repository.
+
+## Try the UI study
+
+[Image-free interactive project board (HTML)](preview/index.html). It runs locally in a browser, uses localStorage only, and is **not** a hosted or production-ready service.
+
+## Review queue
+
+- [Original raster archive import and hash verification](../../issues/1)
+- [Master logo selection](../../issues/2)
+- [Contrast, accessibility, Persian typography](../../issues/3)
+- [Product UI componentization](../../issues/4)
+
+A **15-page visual PDF companion** exists in the downloadable source-assets package; it is not currently uploaded to this GitHub repository.

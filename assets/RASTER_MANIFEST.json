@@ -1,0 +1,128 @@
+{
+  "brand": "SKY VISION",
+  "source_archive": "skyvision-brand-system-ready.zip",
+  "date": "2026-11-03",
+  "note": "Exact SHA-256 source hashes from previous downloadable archive. Files listed here are NOT yet GitHub-hosted. Recompute and verify after transfer.",
+  "assets": [
+    {
+      "path": "assets/reference/original-celestial-artwork.jpeg",
+      "sha256": "b677eb3983254750fb41a1e50b6eebaeeb25c94133774113e301a24c26f4508d",
+      "bytes": 360508,
+      "width": 1024,
+      "height": 1536,
+      "provenance": "user-supplied-reference",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/branding/lunara-brand-identity-board.png",
+      "sha256": "f0dd549f062f03fe34421d1859ae7460ce61a3ab2140d04497086510bf8b53a9",
+      "bytes": 2272405,
+      "width": 1122,
+      "height": 1402,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/website/lunara-website-concept.png",
+      "sha256": "b82001d57a5756846c2dd8b3408e5f51c960f1f8e505a387caf09d6a9bc1ad4c",
+      "bytes": 2408135,
+      "width": 1448,
+      "height": 1086,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/app/lunara-mobile-dark.png",
+      "sha256": "e2b97487b396ed03befadb68f65df25387e6b03e4a85e9ddb12c7b3adfa1611a",
+      "bytes": 2191490,
+      "width": 1122,
+      "height": 1402,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/app/lunara-mobile-light.png",
+      "sha256": "107c98ad95f3d824f9b779061daffc0ab99de2dae2b9d0706f3d61d0688edede",
+      "bytes": 2190262,
+      "width": 1122,
+      "height": 1402,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/app/lunara-states-scenarios.png",
+      "sha256": "aa6a6a1100dbdb6c38e4d498ed7143d8c75d501e0375bbc3812f8e6499f6ffcc",
+      "bytes": 2212546,
+      "width": 1122,
+      "height": 1402,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/app/lunara-expanded-journey.png",
+      "sha256": "25457319b54e3f4447a5f7cd81f74a609eeabd4f6ad6fb56bf9dd583af63aa80",
+      "bytes": 2345314,
+      "width": 1122,
+      "height": 1402,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/project-management/skyvision-project-management-concept.png",
+      "sha256": "7d42168f03d30c988ac41540e1314da0e700b6179a3516fdc39c036653ae4d40",
+      "bytes": 1814806,
+      "width": 1672,
+      "height": 941,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/motifs/celestial-background-quartet.png",
+      "sha256": "d6adce5f21815714219e6f3c6987f4239e843250986cb65979525b3137b0f2d8",
+      "bytes": 2259044,
+      "width": 1448,
+      "height": 1086,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/motifs/celestial-clipart-sheet.png",
+      "sha256": "5aaaba1491082f6e85345d3d4da7c26c7b625943b2e9e80e348891bf4686eaa5",
+      "bytes": 2530970,
+      "width": 1448,
+      "height": 1086,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/motifs/celestial-motif-sheet.png",
+      "sha256": "c3bd492558f9888d5d4fb7a5a9728359672b49d8d8c1e9bca5b67a8c97adc303",
+      "bytes": 1591652,
+      "width": 1448,
+      "height": 1086,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    },
+    {
+      "path": "assets/concepts/motifs/celestial-pattern-quartet.png",
+      "sha256": "278c9edda1d677585ae36c2cd3bf169684ed28b8420271cb5d4dc765b7c193e2",
+      "bytes": 2407116,
+      "width": 1448,
+      "height": 1086,
+      "provenance": "generated-exploration",
+      "github_status": "pending",
+      "rights_status": "unverified"
+    }
+  ]
+}

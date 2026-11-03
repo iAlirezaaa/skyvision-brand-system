@@ -41,3 +41,10 @@ Build a single coherent Sky Vision identity across studio/brand, website and a l
 
 ## Definition of done
 Paths linked; design rules recorded; checks passed with evidence; contrast/RTL reviewed for UI; state of approval clear; agent handoff updated; roadmap boxes checked only when complete.
+
+## 2026-11-03 addendum
+- Implemented browser-only no-image PM prototype at `preview/index.html` with searchable List/Board, light/dark, add task, add custom status and local persistence. It is not a production app and has not undergone end-to-end browser audit.
+- Created downloadable 15-page landscape PDF brand-book companion (not yet hosted in GitHub).
+- Logged raster SHA-256 hashes in `assets/RASTER_MANIFEST.json`; all binary GitHub statuses remain **pending**.
+- Opened issues #1–#4 for transfer/approval/accessibility/product componentization.
+- CI workflow is present; the connected GitHub status APIs have not established an executed passing Actions run. Check repository Actions manually before claiming CI green.
