@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sky Vision — Image-free Project UI (Prototype)</title>
+<style>
+:root{--bg:#fbf7f1;--surface:#fff;--soft:#f2ece4;--ink:#1f2d3a;--muted:#586472;--edge:#dcd6cc;--accent:#a27445;--accent-ink:#fff}
+[data-theme=dark]{--bg:#0b1828;--surface:#14283a;--soft:#1a3346;--ink:#f7e9d8;--muted:#bac7d1;--edge:#385162;--accent:#d8b383;--accent-ink:#0b1828}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.shell{display:grid;grid-template-columns:225px minmax(0,1fr);min-height:100vh}
+aside{border-right:1px solid var(--edge);background:var(--surface);padding:25px 16px}
+.brand{display:flex;align-items:center;gap:10px;letter-spacing:.16em;font-size:15px;font-weight:700;margin-bottom:43px}
+.brand img{width:36px;height:36px}.nav{padding:11px 14px;border-radius:9px;margin:4px 0;color:var(--muted)}.nav.active{background:var(--soft);color:var(--ink);font-weight:700}
+.aside-note{font-size:12px;color:var(--muted);margin-top:40px;line-height:1.65}
+main{min-width:0;padding:28px clamp(18px,4vw,58px)}
+header{display:flex;align-items:start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.eyebrow{color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h1{font:46px/1.06 Georgia,serif;margin:8px 0 10px}p{color:var(--muted);margin:0}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.btn{padding:10px 16px;border-radius:10px;border:1px solid var(--edge);background:var(--surface);color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.panel{margin-top:28px;background:var(--surface);border:1px solid var(--edge);border-radius:16px;box-shadow:0 8px 26px #00000008}
+.toolbar{padding:16px 20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--edge)}
+.tabs{display:flex;gap:6px}.tabs button{border:0;border-radius:8px;background:transparent;color:var(--muted);padding:8px 14px}
+.tabs .current{background:var(--soft);color:var(--ink);font-weight:700}
+.search{border:1px solid var(--edge);background:var(--bg);padding:9px 12px;border-radius:9px;color:var(--ink);min-width:220px}
+.board{padding:20px;display:grid;grid-template-columns:repeat(4,minmax(190px,1fr));gap:12px;overflow:auto}
+.column{background:var(--soft);border-radius:12px;padding:14px;min-height:285px;min-width:190px}
+.column header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.status{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:12px}
+.dot{height:9px;width:9px;display:inline-block;border-radius:50%}
+.count{font-size:12px;color:var(--muted)}
+.task{background:var(--surface);border:1px solid var(--edge);border-radius:9px;padding:13px;margin:8px 0;min-height:88px}
+.task b{font-size:14px;font-weight:650;display:block;margin-bottom:8px}.meta{font-size:12px;color:var(--muted)}
+.task select{margin-top:11px;padding:5px 6px;font-size:12px;border:1px solid var(--edge);background:var(--surface);color:var(--ink);border-radius:6px;width:100%}
+.task.done b{text-decoration:line-through;opacity:.74}
+.list{padding:8px 20px 20px;overflow:auto}.list table{width:100%;border-collapse:collapse;text-align:left;min-width:620px}
+th,td{padding:15px 10px;border-bottom:1px solid var(--edge)}th{font-size:12px;color:var(--muted)}
+small{font-size:11px;color:var(--muted)}.bottom{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-top:1px solid var(--edge);gap:12px;flex-wrap:wrap}
+.hidden{display:none!important}
+@media(max-width:970px){.shell{grid-template-columns:1fr}aside{display:none}.board{grid-template-columns:repeat(2,minmax(200px,1fr))}h1{font-size:36px}}
+@media(max-width:580px){.board{grid-template-columns:1fr}.controls{width:100%}.search{width:100%;min-width:0}.panel{margin-top:20px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+</head>
+<body data-theme="light">
+<div class="shell">
+<aside><div class="brand"><img src="../assets/svg/skyvision-symbol-compact.svg" alt=""> SKY VISION</div><nav aria-label="Main"><div class="nav">Overview</div><div class="nav active">Projects</div><div class="nav">My Tasks</div><div class="nav">Boards</div><div class="nav">Timeline</div><div class="nav">Calendar</div><div class="nav">Settings</div></nav><div class="aside-note">Working UI prototype · v0.1<br>Zero image uploads required.<br>Not a production application.</div></aside>
+<main>
+<header><div><div class="eyebrow">Creative production / concept</div><h1>Projects in motion</h1><p>See the entire production clearly. Keep every task in view.</p></div>
+<div class="controls"><button class="btn" id="theme" type="button" aria-label="Toggle dark and light theme">Dark mode</button><button class="btn primary" id="add-task" type="button">+ New task</button></div></header>
+<section class="panel" aria-label="Task overview"><div class="toolbar"><div class="tabs"><button id="view-board" class="current" type="button" aria-pressed="true">Board</button><button id="view-list" type="button" aria-pressed="false">List</button></div><div class="controls"><input id="search" class="search" type="search" placeholder="Search tasks..." aria-label="Search tasks"><button id="add-status" class="btn" type="button">+ Add status</button></div></div>
+<div id="board" class="board"></div><div id="list" class="list hidden"></div><div class="bottom"><small id="feedback" role="status" aria-live="polite">Local demonstration data only.</small><button type="button" class="btn" id="reset">Reset demo</button></div></section>
+<div style="margin-top:22px"><small>No decorative images in the task workflow. Statuses are labeled, not color-only. Try adding, moving and filtering tasks.</small></div>
+</main></div>
+<script>
+(function(){
+'use strict';
+var initialStatuses=[{id:'todo',name:'To do',color:'#788C9D'},{id:'progress',name:'In progress',color:'#668BB0'},{id:'review',name:'Review',color:'#BE965A'},{id:'done',name:'Done',color:'#4F9C80'}];
+var initialTasks=[{id:1,title:'Storyboard v2',status:'todo',owner:'Sara',due:'Nov 12'},{id:2,title:'Review dialogue',status:'todo',owner:'Ali',due:'Nov 14'},{id:3,title:'Scene layout',status:'progress',owner:'Mina',due:'Nov 15'},{id:4,title:'Shot 30–45 animation',status:'progress',owner:'Reza',due:'Nov 18'},{id:5,title:'Lighting pass',status:'review',owner:'Mina',due:'Nov 10'},{id:6,title:'Story reel v1',status:'done',owner:'Team',due:'Nov 03'}];
+var state={statuses:initialStatuses.map(function(s){return Object.assign({},s)}),tasks:initialTasks.map(function(t){return Object.assign({},t)}),view:'board',theme:'light'};
+try{var saved=JSON.parse(localStorage.getItem('sv-demo-v1'));if(saved && Array.isArray(saved.tasks)&&Array.isArray(saved.statuses)){state=Object.assign(state,saved)}}catch(e){}
+var q=function(s){return document.querySelector(s)},el=function(t,cls,text){var x=document.createElement(t);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x};
+var notify=function(s){q('#feedback').textContent=s},save=function(){try{localStorage.setItem('sv-demo-v1',JSON.stringify(state))}catch(e){notify('Storage unavailable; changes last for this tab only.')}};
+function selectStatus(task){var sel=el('select');sel.setAttribute('aria-label','Change status for '+task.title);state.statuses.forEach(function(s){var op=el('option','',s.name);op.value=s.id;sel.appendChild(op)});sel.value=task.status;sel.addEventListener('change',function(){task.status=sel.value;save();notify('Status updated for '+task.title);render()});return sel}
+function card(task){var box=el('article','task'+(task.status==='done'?' done':''));box.appendChild(el('b','',task.title));box.appendChild(el('div','meta',task.owner+'  ·  Due '+task.due));box.appendChild(selectStatus(task));return box}
+function render(){document.body.dataset.theme=state.theme;q('#theme').textContent=state.theme==='light'?'Dark mode':'Light mode';
+q('#view-board').classList.toggle('current',state.view==='board');q('#view-list').classList.toggle('current',state.view==='list');q('#view-board').setAttribute('aria-pressed',state.view==='board');q('#view-list').setAttribute('aria-pressed',state.view==='list');q('#board').classList.toggle('hidden',state.view!=='board');q('#list').classList.toggle('hidden',state.view!=='list');
+var term=q('#search').value.trim().toLocaleLowerCase();var tasks=state.tasks.filter(function(t){return t.title.toLocaleLowerCase().includes(term)||t.owner.toLocaleLowerCase().includes(term)});
+var board=q('#board');board.replaceChildren();state.statuses.forEach(function(s){var col=el('section','column');var head=el('header');var label=el('div','status');var d=el('span','dot');d.style.backgroundColor=s.color;label.append(d,document.createTextNode(s.name));head.append(label,el('span','count',String(tasks.filter(function(t){return t.status===s.id}).length)));col.appendChild(head);tasks.filter(function(t){return t.status===s.id}).forEach(function(t){col.appendChild(card(t))});board.appendChild(col)});
+var list=q('#list');list.replaceChildren();var table=el('table');var thead=el('thead');var tr=el('tr');['Task','Owner','Due','Status'].forEach(function(s){tr.appendChild(el('th','',s))});thead.appendChild(tr);table.appendChild(thead);var tbody=el('tbody');tasks.forEach(function(t){var row=el('tr');[t.title,t.owner,t.due].forEach(function(v){row.appendChild(el('td','',v))});var td=el('td');td.appendChild(selectStatus(t));row.appendChild(td);tbody.appendChild(row)});table.appendChild(tbody);list.appendChild(table);
+if(!tasks.length){var hint=el('p','',state.tasks.length?'No matching tasks. Clear search to see all tasks.':'No tasks yet. Create your first task.');(state.view==='list'?list:board).appendChild(hint)}
+}
+q('#theme').addEventListener('click',function(){state.theme=state.theme==='light'?'dark':'light';save();render()});
+q('#view-board').addEventListener('click',function(){state.view='board';save();render()});q('#view-list').addEventListener('click',function(){state.view='list';save();render()});
+q('#search').addEventListener('input',render);
+q('#add-task').addEventListener('click',function(){var t=window.prompt('New task title:');if(!t||!t.trim())return;state.tasks.push({id:Date.now(),title:t.trim().slice(0,120),status:state.statuses[0].id,owner:'Unassigned',due:'Not set'});save();notify('Task created locally.');render()});
+q('#add-status').addEventListener('click',function(){var n=window.prompt('New status name:');if(!n||!n.trim())return;var color=window.prompt('Status color as #RRGGBB (optional):','#85A3BE');if(!/^#[\da-fA-F]{6}$/.test(color||''))color='#85A3BE';var id='custom-'+Date.now();state.statuses.push({id:id,name:n.trim().slice(0,40),color:color});save();notify('Custom status created locally.');render()});
+q('#reset').addEventListener('click',function(){state.statuses=initialStatuses.map(function(s){return Object.assign({},s)});state.tasks=initialTasks.map(function(t){return Object.assign({},t)});save();notify('Demo reset.');render()});
+render();
+})();
+</script></body></html>
