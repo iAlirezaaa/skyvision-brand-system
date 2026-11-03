@@ -1,0 +1,75 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "brand": "SKY VISION",
+    "version": "0.1.0",
+    "approval": "proposed",
+    "note": "Suggested values; not color-calibrated"
+  },
+  "color": {
+    "brand": {
+      "midnight": "#0B1828",
+      "panel": "#14283A",
+      "ivory": "#F7E9D8",
+      "mist": "#85A3BE",
+      "gold": "#D8B383",
+      "sand": "#D7C2A8",
+      "ink": "#1F2D3A"
+    },
+    "light": {
+      "background": "#FBF7F1",
+      "surface": "#FFFFFF",
+      "surfaceSubtle": "#F2ECE4",
+      "foreground": "#1F2D3A",
+      "foregroundMuted": "#586472",
+      "border": "#DCD6CC",
+      "accent": "#A27445",
+      "accentForeground": "#FFFFFF",
+      "focus": "#95622F"
+    },
+    "dark": {
+      "background": "#0B1828",
+      "surface": "#14283A",
+      "surfaceSubtle": "#1A3346",
+      "foreground": "#F7E9D8",
+      "foregroundMuted": "#BAC7D1",
+      "border": "#385162",
+      "accent": "#D8B383",
+      "accentForeground": "#0B1828",
+      "focus": "#E6C99B"
+    },
+    "status": {
+      "todo": "#788C9D",
+      "progress": "#668BB0",
+      "review": "#BE965A",
+      "done": "#4F9C80",
+      "blocked": "#C56865"
+    }
+  },
+  "spacing": {
+    "xxs": 4,
+    "xs": 8,
+    "sm": 12,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 48
+  },
+  "radius": {
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "pill": 999
+  },
+  "typography": {
+    "ui": "Inter, system-ui, sans-serif",
+    "display": "Georgia, serif",
+    "defaultBodyPx": 15,
+    "minimumDataPx": 14
+  },
+  "layout": {
+    "sidebarWidthPx": 240,
+    "topbarHeightPx": 64,
+    "mobileTouchTargetPx": 44
+  }
+}

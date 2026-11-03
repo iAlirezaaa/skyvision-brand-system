@@ -1,0 +1,27 @@
+:root {
+  /* Sky Vision v0.1 — proposed semantic tokens */
+  --sv-midnight: #0b1828; --sv-panel: #14283a;
+  --sv-ivory: #f7e9d8; --sv-mist: #85a3be;
+  --sv-gold: #d8b383; --sv-sand: #d7c2a8;
+  --sv-background: #fbf7f1; --sv-surface: #fff;
+  --sv-surface-subtle: #f2ece4; --sv-text: #1f2d3a;
+  --sv-text-muted: #586472; --sv-border: #dcd6cc;
+  --sv-accent: #a27445; --sv-accent-text: #fff; --sv-focus: #95622f;
+  --sv-status-todo: #788c9d; --sv-status-progress: #668bb0;
+  --sv-status-review: #be965a; --sv-status-done: #4f9c80;
+  --sv-status-blocked: #c56865;
+  --sv-space-1: 4px; --sv-space-2: 8px; --sv-space-3: 12px;
+  --sv-space-4: 16px; --sv-space-6: 24px; --sv-space-8: 32px;
+  --sv-radius-sm: 8px; --sv-radius-md: 12px; --sv-radius-lg: 16px;
+  color-scheme: light;
+}
+[data-theme="dark"] {
+  --sv-background: #0b1828; --sv-surface: #14283a;
+  --sv-surface-subtle: #1a3346; --sv-text: #f7e9d8;
+  --sv-text-muted: #bac7d1; --sv-border: #385162;
+  --sv-accent: #d8b383; --sv-accent-text: #0b1828;
+  --sv-focus: #e6c99b;
+  color-scheme: dark;
+}
+:focus-visible {outline: 2px solid var(--sv-focus); outline-offset: 2px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}

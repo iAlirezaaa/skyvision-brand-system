@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title"><title id="title">Sky Vision orbital wave symbol — draft</title>
+<circle cx="128" cy="128" r="112" fill="#0B1828"/>
+<circle cx="128" cy="128" r="94" fill="none" stroke="#D8B383" stroke-width="1.4" opacity=".84"/>
+<path d="M203 96A80 80 0 0 0 73 62c37-12 66-3 86 21s28 51 44 13Z" fill="#F7E9D8"/>
+<path d="M41 162C77 93 112 115 141 153c26 35 56 38 80 13-25 63-129 75-180-4Z" fill="#85A3BE"/>
+<path d="M41 162c43-29 81-25 109 1s47 23 71 3" fill="none" stroke="#F7E9D8" stroke-width="10" stroke-linecap="round"/>
+<path d="M128 17v26M128 214v25M18 128h25M213 128h25" stroke="#D8B383" stroke-width="1.4"/>
+<path d="m128 58 4 13 13 4-13 4-4 13-4-13-13-4 13-4Z" fill="#D8B383"/>
+<circle cx="128" cy="128" r="2.6" fill="#D8B383"/>
+</svg>
