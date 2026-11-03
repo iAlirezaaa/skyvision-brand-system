@@ -17,6 +17,12 @@ Do NOT silently change the Sky Vision name, brand purpose, motif family, source 
 
 Never overwrite original images. Derivative works must have a distinct filename, version and source record. Never relabel LUNARA/ORBITRA exploration as approved Sky Vision identity.
 
+## Visual asset production contract
+
+Read `production/ASSET_INVENTORY.json`, `production/ASSET_BACKLOG.md`, `production/DELIVERY_STANDARD.md` and the exact `production/briefs/<ID>.md` before creating a visual. **One visual deliverable per asset ID, one at a time**, not a mass collage. Do not skip a queued item unless owner or dependency review changes order. Record evidence and request acceptance before marking `approved`; never silently upgrade a conversation-only concept or a missing raster.
+
+**Do not change the canonical theme palette to conceal failing color contrast without an owner-approved ADR.** Produce measured audit and proposal first (`docs/ACCESSIBILITY_COLOR_AUDIT.md`). CI can validate structure; it cannot certify aesthetics, rights or accessibility.
+
 ## Work sequence
 1. Check existing conventions and issues; make a small scoped plan.
 2. Identify whether proposed, approved or archived artifacts are affected.
