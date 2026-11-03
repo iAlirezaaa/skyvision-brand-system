@@ -22,6 +22,14 @@
 | `assets/concepts/motifs/celestial-clipart-sheet.png` | Decorative motif library | Pending |
 | `assets/concepts/motifs/celestial-background-quartet.png` | Light/dark backgrounds | Pending |
 
+## Newly generated design production attempt (not part of the 12-source manifest)
+
+| Planned output path | Source | GitHub status |
+|---|---|---|
+| `assets/production/BG/BG-01.png` | A single dark celestial hero image generated in conversation (`celestial_yin_yang_orbit_in_midnight_blue.png`) | **DRAFT — source not verified in GitHub, not approved** |
+
+See [production inventory](../production/ASSET_INVENTORY.json) for the 166-asset backlog. Do not include BG-01 as a hash-verified source image until the actual binary is transferred, its exact size and SHA-256 recorded, and permission confirmed.
+
 ## Live vector asset studies
 New original SVG motif studies under `assets/svg/` are editable **proposals**. Their existence does not imply final logo approval.
 
