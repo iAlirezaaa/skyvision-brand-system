@@ -48,3 +48,16 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Logged raster SHA-256 hashes in `assets/RASTER_MANIFEST.json`; all binary GitHub statuses remain **pending**.
 - Opened issues #1–#4 for transfer/approval/accessibility/product componentization.
 - CI workflow is present; the connected GitHub status APIs have not established an executed passing Actions run. Check repository Actions manually before claiming CI green.
+
+## 2026-11-03 — production backlog and validation audit
+
+- Inspected the connected public repository and existing issues #1–#4. The previous exhaustive asset checklist was missing from GitHub.
+- Added `production/ASSET_INVENTORY.json` and `production/ASSET_BACKLOG.md`: **166 individual planned outputs** in **14 categories**, with stable ID, priority, single-image output target, status, and approval state.
+- Added visual production/export policy, a BG-01 dedicated brief, a reusable brief template, component catalog, gap audit, source/rights policy, PR template and asset issue template.
+- BG-01 remains **draft / not approved / image not verified in GitHub**. Other inventory assets are queued. No visual deliverables were falsely marked approved.
+- Added `scripts/check_inventory.py`, `scripts/verify_raster_manifest.py` and `scripts/contrast_audit.py` and connected them in the validation workflow. **Actual CI execution result still requires GitHub Actions verification**; script availability is not evidence of passing.
+- Measured token pairs: light-theme accent button text **4.10:1** (normal-size target 4.5:1), light meaningful border **1.44:1**, dark meaningful border **1.81:1** (non-text target 3:1 where applicable). Proposed remedies in `docs/ACCESSIBILITY_COLOR_AUDIT.md` do not alter protected palette.
+- Corrected GitHub issue links in README and added links to production documentation.
+
+### Next action, strictly sequential
+**BG-01** visual review / source rights / quality proof / verified upload. Only after owner approval advance to **BG-02**. Alongside this, resolve issue #1 for the 12 original rasters and review CI workflow. Do not claim any unverified binary asset is in the repository.
