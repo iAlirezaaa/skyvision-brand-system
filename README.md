@@ -35,15 +35,33 @@ This repository houses **working documentation and original vector motif proposa
 
 **License:** Not specified. No open-source reuse permission is granted by the presence of files in this repository.
 
+## Production inventory — one asset at a time
+
+**166 proposed individual visual deliverables**, organized into 14 families. These are the full *work plan*, not completed images.
+
+- [Full human-readable production backlog](production/ASSET_BACKLOG.md)
+- [Machine-readable inventory with IDs, status, priority and output paths](production/ASSET_INVENTORY.json)
+- [Production/export standard](production/DELIVERY_STANDARD.md)
+- [First item brief: BG-01](production/briefs/BG-01.md)
+- [Reusable single-item brief](production/BRIEF_TEMPLATE.md)
+- [UI component and screen inventory](docs/COMPONENT_CATALOG.md)
+- [Repository gap audit](docs/REPOSITORY_AUDIT_2026-11-03.md)
+- [Initial color contrast findings](docs/ACCESSIBILITY_COLOR_AUDIT.md)
+- [Source/rights caution](docs/CONTENT_AND_RIGHTS.md)
+
+**Active status:** BG-01 is an unapproved *draft* generated in conversation, **not yet a verified GitHub image file**. No visual output is marked approved. All original raster archive items remain pending transfer. Design and source files must not be asserted present simply because they are listed in metadata.
+
+**Validation:** `python scripts/validate_repo.py`, `python scripts/check_inventory.py`, `python scripts/verify_raster_manifest.py`, `python scripts/contrast_audit.py`. Structural checks do not prove accessibility, design approval or CI-green status.
+
 ## Try the UI study
 
 [Image-free interactive project board (HTML)](preview/index.html). It runs locally in a browser, uses localStorage only, and is **not** a hosted or production-ready service.
 
 ## Review queue
 
-- [Original raster archive import and hash verification](../../issues/1)
-- [Master logo selection](../../issues/2)
-- [Contrast, accessibility, Persian typography](../../issues/3)
-- [Product UI componentization](../../issues/4)
+- [Original raster archive import and hash verification](https://github.com/iAlirezaaa/skyvision-brand-system/issues/1)
+- [Master logo selection](https://github.com/iAlirezaaa/skyvision-brand-system/issues/2)
+- [Contrast, accessibility, Persian typography](https://github.com/iAlirezaaa/skyvision-brand-system/issues/3)
+- [Product UI componentization](https://github.com/iAlirezaaa/skyvision-brand-system/issues/4)
 
 A **15-page visual PDF companion** exists in the downloadable source-assets package; it is not currently uploaded to this GitHub repository.
