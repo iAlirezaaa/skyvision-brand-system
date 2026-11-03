@@ -1,15 +1,29 @@
-name: validate
+name: Sky Vision source QA
+
 on:
   push:
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
 jobs:
-  source-checks:
+  validate-source:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/validate_repo.py
+      - name: Compile validation scripts
+        run: python -m compileall -q scripts
+      - name: Validate repository structure and proposed tokens
+        run: python scripts/validate_repo.py
+      - name: Validate visual production inventory
+        run: python scripts/check_inventory.py
+      - name: Verify raster manifest and any present originals
+        run: python scripts/verify_raster_manifest.py
+      - name: Report candidate color contrast (advisory)
+        run: python scripts/contrast_audit.py
