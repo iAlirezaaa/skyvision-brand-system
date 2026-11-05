@@ -1883,15 +1883,15 @@
       "category": "Website and marketing",
       "title": "Marketing homepage desktop",
       "priority": "P1",
-      "status": "queued",
+      "status": "draft",
       "review": "not-approved",
       "format": "PNG",
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/WB/WB-01.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/WB/WB-01-homepage-concept.html",
+      "source_artifact": "Original responsive HTML/CSS concept authored from user-provided visual references.",
+      "notes": "English-first concept preview with semantic structure; localized Persian copy is not yet implemented."
     },
     {
       "id": "WB-02",
@@ -2303,15 +2303,15 @@
       "category": "Motion",
       "title": "Hero ambient motion design",
       "priority": "P2",
-      "status": "queued",
+      "status": "draft",
       "review": "not-approved",
       "format": "PNG",
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/MO/MO-03.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/MO/MO-03.png",
+      "source_artifact": "Generated image for the repository based on supplied celestial illustration reference.",
+      "notes": "1024x1536 RGB; visual pass; no text; draft, below print-resolution target."
     },
     {
       "id": "MO-04",

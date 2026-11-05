@@ -23,6 +23,13 @@
 | `production/` | Asset briefs, inventory, quality and delivery rules / برنامه و کنترل کیفیت |
 | `preview/` | Local browsable brand database / پایگاه قابل مرور |
 
+### Current visual previews / پیش‌نمایش‌های تصویری
+
+- [Signature key visual](assets/production/MO/MO-03.png) — standalone celestial artwork / تصویر کلیدی مستقل
+- [Website homepage concept](assets/production/WB/WB-01-homepage-concept.html) — responsive editorial landing page / طرح صفحه‌ی فرود واکنش‌گرا
+- [Animated signature](assets/production/MO/MO-01-logo-signature.gif) — looping GIF / گیف حلقه‌ای
+- [Browse the production files](assets/production/) — backgrounds, icons and motion / پس‌زمینه، آیکون و موشن
+
 Newly generated files and attached references are indexed in `assets/ASSET_REGISTER.md` and `assets/RASTER_MANIFEST.json`. Generated artwork remains draft until human acceptance.
 
 Sky Vision is a celestial-inspired identity system for a creative studio and an **image-optional project-management product**. It combines a crafted editorial surface with practical, accessible, high-density workflows.
