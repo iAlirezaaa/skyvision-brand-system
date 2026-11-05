@@ -191,6 +191,61 @@
       "provenance": "built-in-imagegen",
       "qc": "bright chromatic fringe visible",
       "sha256": "1e8cb2881cb4cd004fd0d44e00ad835e4cdbd8bd0c0cead93a191f5eb8aae646"
+    },
+    {
+      "path": "assets/production/BG/BG-02.png",
+      "sha256": "38ad501a0959a1b1da5ac761021a45b966da738391056f8e7f11c83144eb770e",
+      "bytes": 1544005,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "generated-for-this-repository",
+      "status": "draft",
+      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+    },
+    {
+      "path": "assets/production/BG/BG-03.png",
+      "sha256": "f28dbb215273cfc129fb7e1a0c3c19402dac5ad844718cbc449ca4278a611e7c",
+      "bytes": 1858626,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "generated-for-this-repository",
+      "status": "draft",
+      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+    },
+    {
+      "path": "assets/production/BG/BG-06.png",
+      "sha256": "7153c8d3ae5311a3e8fdc8dbd49f0ee66ba979603c794ece4e3bbc7f0f2436e9",
+      "bytes": 2303839,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG RGB",
+      "provenance": "generated-for-this-repository",
+      "status": "draft",
+      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+    },
+    {
+      "path": "assets/production/MO/MO-01-logo-signature.gif",
+      "sha256": "930d1057fe9c89556671e068c3242d45efdd8c73a319ca3125cc2bece61463fc",
+      "bytes": 201902,
+      "width": 640,
+      "height": 640,
+      "format": "GIF 36 frames",
+      "provenance": "generated-for-this-repository",
+      "status": "draft",
+      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+    },
+    {
+      "path": "assets/production/MO/MO-02-orbit-loop.gif",
+      "sha256": "e529d9c0d02ab5e05403d36cec46e442e3d5d4f95b02aeb57bdc4cebe6214195",
+      "bytes": 7151732,
+      "width": 640,
+      "height": 640,
+      "format": "GIF 24 frames",
+      "provenance": "generated-for-this-repository",
+      "status": "draft",
+      "qc": "Visual review passed; see per-file notes and limitations in asset register."
     }
   ]
 }

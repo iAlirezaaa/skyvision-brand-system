@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 144" role="img" aria-labelledby="title">
+  <title id="title">Sky Vision primary navigation icon family</title>
+  <g fill="none" stroke="#D7B686" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 65 72 38l34 27v39H83V81H61v23H38z"/>
+    <rect x="177" y="43" width="66" height="56" rx="8"/><path d="M177 60h66M194 52h2M205 52h2"/>
+    <rect x="317" y="38" width="64" height="67" rx="7"/><path d="M335 57h28M335 72h28M335 87h18"/>
+    <circle cx="488" cy="55" r="11"/><circle cx="520" cy="55" r="11"/><path d="M466 99c2-18 10-27 22-27s20 9 22 27M498 76c15-2 25 6 28 20"/>
+    <circle cx="648" cy="70" r="30"/><path d="M648 40v60M618 70h60M628 50l40 40M668 50l-40 40"/>
+  </g>
+  <g fill="#F3E6D4" font-family="sans-serif" font-size="13" text-anchor="middle">
+    <text x="72" y="132">Home</text><text x="210" y="132">Projects</text><text x="349" y="132">Tasks</text><text x="496" y="132">Team</text><text x="648" y="132">Focus</text>
+  </g>
+</svg>

@@ -7,5 +7,6 @@ Generated for the Sky Vision brand database preview. These are working drafts, n
 | `skyvision-hero-01.png` | Wide hero illustration | Generated draft |
 | `skyvision-moon-orbit-01.png` | Moon/orbit motif | QC failed: visible matte/speckle around subject; retained as rejected iteration, do not use |
 | `skyvision-crescent-cutout-01.png` | Single crescent motif | Draft; RGBA with alpha range 0–255, visual edges still need final acceptance |
+| `skyvision-pattern-tile-01.png` | Celestial repeat-style background | Visual pass; seamless edge continuity not checked |
 
 Generation method: built-in image generation tool. Preserve these files and create versioned siblings for future changes.
