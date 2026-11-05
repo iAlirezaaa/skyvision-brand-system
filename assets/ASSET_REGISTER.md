@@ -24,6 +24,16 @@
 
 ## Newly generated design production attempt (not part of the 12-source manifest)
 
+### Current generated assets
+
+| Path | Dimensions / format | QC | Status |
+|---|---|---|---|
+| `assets/raster/skyvision-hero-01.png` | 1672×941 RGB PNG | Individually inspected: one crescent/orbit scene, no text, clean wide composition. Good for web preview; below 4K production target. | Draft |
+| `assets/raster/skyvision-moon-orbit-01.png` | 1254×1254 RGBA PNG | Failed visual edge QC: unwanted bright fringe/noise around motif. Kept as rejected iteration for traceability. | Rejected; do not use |
+| `assets/raster/skyvision-crescent-cutout-01.png` | 1254×1254 RGBA PNG | Alpha channel confirmed, but visual inspection still shows fringe/noise; not accepted as a clean cutout. | Rejected; do not use |
+
+Hashes and file sizes are maintained in `assets/RASTER_MANIFEST.json`. User-supplied references and their roles are listed in `assets/ATTACHED_REFERENCE_MANIFEST.json`.
+
 | Planned output path | Source | GitHub status |
 |---|---|---|
 | `assets/production/BG/BG-01.png` | A single dark celestial hero image generated in conversation (`celestial_yin_yang_orbit_in_midnight_blue.png`) | **DRAFT — source not verified in GitHub, not approved** |

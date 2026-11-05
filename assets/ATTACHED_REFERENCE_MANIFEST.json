@@ -1,0 +1,17 @@
+{
+  "brand": "SKY VISION",
+  "note": "User-supplied files copied byte-for-byte from chat attachments. Reference only; includes exploratory LUNARA/ORBITRA material. Rights and production approval remain unverified.",
+  "assets": [
+    {"path":"assets/reference/attached/fa0eda43-423e-4fac-beb9-38585c08d560.png","role":"celestial motif sheet reference","status":"reference-only"},
+    {"path":"assets/reference/attached/35874810-647a-4d10-a676-bbbf959a736d.png","role":"ORBITRA brand and product exploration","status":"reference-only"},
+    {"path":"assets/reference/attached/4bba17c9-8978-4f49-b074-64877b510b6d.jpg","role":"celestial illustration reference","status":"reference-only"},
+    {"path":"assets/reference/attached/111038b5-36e5-4849-80a5-30e7e6b613f6.png","role":"Sky Vision identity and product exploration board","status":"reference-only"},
+    {"path":"assets/reference/attached/cdfd13f1-bba2-4259-9366-dd28ccb513a6.png","role":"brand and product exploration board","status":"reference-only"},
+    {"path":"assets/reference/attached/84757833-3558-4fff-b918-c1b77299bca8.png","role":"celestial patterns and motifs reference","status":"reference-only"},
+    {"path":"assets/reference/attached/4e448339-095f-42fb-9fa8-a9dcd4e73caf.png","role":"LUNARA mobile journey exploration","status":"reference-only"},
+    {"path":"assets/reference/attached/b6a11093-528c-49b9-bc98-a6dd210606e4.png","role":"LUNARA light UI exploration","status":"reference-only"},
+    {"path":"assets/reference/attached/3b1598d8-cdc5-4838-bc60-1dd18eb9d95c.png","role":"LUNARA website exploration","status":"reference-only"},
+    {"path":"assets/reference/attached/e46519f7-6faf-44fb-891a-175921da57c6.png","role":"LUNARA identity exploration","status":"reference-only"},
+    {"path":"assets/reference/attached/f1054f9f-8527-4cd7-a485-7dd365080759.png","role":"Sky Vision identity and UI exploration board","status":"reference-only"}
+  ]
+}

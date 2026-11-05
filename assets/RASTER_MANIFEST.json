@@ -2,7 +2,7 @@
   "brand": "SKY VISION",
   "source_archive": "skyvision-brand-system-ready.zip",
   "date": "2026-11-03",
-  "note": "Exact SHA-256 source hashes from previous downloadable archive. Files listed here are NOT yet GitHub-hosted. Recompute and verify after transfer.",
+  "note": "Legacy archive manifest; newly attached references and generated drafts are tracked in ATTACHED_REFERENCE_MANIFEST.json and the generated asset records below.",
   "assets": [
     {
       "path": "assets/reference/original-celestial-artwork.jpeg",
@@ -123,6 +123,74 @@
       "provenance": "generated-exploration",
       "github_status": "pending",
       "rights_status": "unverified"
+    }
+  ],
+  "generated_assets": [
+    {
+      "height": 941,
+      "status": "draft",
+      "format": "PNG RGB",
+      "path": "assets/raster/skyvision-hero-01.png",
+      "width": 1672,
+      "bytes": 2013091,
+      "provenance": "built-in-imagegen",
+      "qc": "visual-pass for web preview",
+      "sha256": "7df45faa1d34e3de8a3bcf59b4f1964c3c6a37d953d33eb6d1c65dce31680546"
+    },
+    {
+      "height": 941,
+      "status": "draft",
+      "format": "PNG RGB",
+      "path": "assets/raster/skyvision-pattern-tile-01.png",
+      "width": 1672,
+      "bytes": 2451656,
+      "provenance": "built-in-imagegen",
+      "qc": "visual-pass as background; seamless edge continuity not validated",
+      "sha256": "4c76553407e0da74b45b7ad08766c118c034957349366762226fdd1472532974"
+    },
+    {
+      "height": 1254,
+      "status": "rejected",
+      "format": "PNG RGBA",
+      "path": "assets/raster/skyvision-moon-orbit-01.png",
+      "width": 1254,
+      "bytes": 695549,
+      "provenance": "built-in-imagegen",
+      "qc": "fringe and speckle visible",
+      "sha256": "3fd8475c64a1089d69bf4709b75ddd86586612c455d5b7c1c0d2fc8d28ada285"
+    },
+    {
+      "height": 1254,
+      "status": "rejected",
+      "format": "PNG RGBA",
+      "path": "assets/raster/skyvision-crescent-cutout-01.png",
+      "width": 1254,
+      "bytes": 948125,
+      "provenance": "built-in-imagegen",
+      "qc": "fringe and speckle visible",
+      "sha256": "d2c7d4634d500cd0ece7d2fad86bbbabd2cf651fa9bbfa877e17f8b43eacbb8b"
+    },
+    {
+      "height": 1254,
+      "status": "rejected",
+      "format": "PNG RGBA",
+      "path": "assets/raster/skyvision-compass-star-01.png",
+      "width": 1254,
+      "bytes": 261010,
+      "provenance": "built-in-imagegen",
+      "qc": "bright chromatic halo visible",
+      "sha256": "2f3769a2fbca577c6c689bbc920c9570f632f75f186e5ab655838f6cd7e01679"
+    },
+    {
+      "height": 724,
+      "status": "rejected",
+      "format": "PNG RGBA",
+      "path": "assets/raster/skyvision-wave-cloud-cutout-01.png",
+      "width": 2172,
+      "bytes": 647278,
+      "provenance": "built-in-imagegen",
+      "qc": "bright chromatic fringe visible",
+      "sha256": "1e8cb2881cb4cd004fd0d44e00ad835e4cdbd8bd0c0cead93a191f5eb8aae646"
     }
   ]
 }

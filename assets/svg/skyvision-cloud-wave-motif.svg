@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision cloud and wave motif</title>
+  <desc id="desc">A single ivory cloud and flowing mist-blue ribbons with delicate sand contours.</desc>
+  <g stroke="#D7B686" stroke-width="3" stroke-linejoin="round">
+    <path fill="#F3E6D4" d="M95 204c-34 0-59-22-59-51 0-27 22-48 51-49 8-34 39-57 76-57 40 0 70 25 77 60 31 2 54 24 54 52 0 26-22 45-51 45H95z"/>
+    <path fill="#8EBAAA" d="M199 210c98 15 145 3 225-36 87-43 151-70 256-62 89 7 164 42 243 47 67 5 128-11 202-45-48 77-125 124-226 127-91 3-168-31-253-31-92 0-158 46-253 65-85 17-153 7-194-13z"/>
+    <path fill="#F3E6D4" d="M210 222c85 6 134-10 214-44 92-39 160-57 254-45 92 12 156 49 241 55 75 6 140-13 206-42-49 50-112 79-193 79-94 0-164-39-255-38-98 1-164 50-254 63-84 12-153-1-213-28z"/>
+  </g>
+  <path d="M301 203c27-19 33-39 18-57-14-17-34-14-42 2-7 14 4 28 18 24 9-3 10-12 4-17" fill="none" stroke="#D7B686" stroke-width="5" stroke-linecap="round"/>
+</svg>

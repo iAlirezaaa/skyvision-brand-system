@@ -1,6 +1,29 @@
-# SKY VISION — Brand System
+# SKY VISION — Brand System / سیستم برند
 
 > **Working design system · v0.1 · concepts are not approved final identity**
+
+> **پایگاه کاری برند · نسخه‌ی ۰.۲ · طرح‌ها هنوز هویت نهایی تأییدشده نیستند**
+
+## Brand database / پایگاه اطلاعات برند
+
+**English:** This repository is the bilingual working source of truth for Sky Vision identity, product UI, visual assets, design tokens, provenance, and production planning. Browse the [Brand Database](preview/index.html) or read the [full overview in English and Persian](docs/BRAND_DATABASE.md).
+
+**فارسی:** این ریپو مرجع دوزبانه‌ی هویت Sky Vision، رابط محصول، دارایی‌های بصری، توکن‌های طراحی، منشأ فایل‌ها و برنامه‌ی تولید است. [پایگاه برند](preview/index.html) را مرور کنید یا [معرفی کامل فارسی و انگلیسی](docs/BRAND_DATABASE.md) را بخوانید.
+
+## Repository map / نقشه‌ی ریپو
+
+| Path | Purpose |
+|---|---|
+| `brandbook/` | Brand book, approval matrix, export guidance / برندبوک و تأییدها |
+| `tokens/` | Semantic design tokens / توکن‌های طراحی |
+| `docs/` | Product, art direction, accessibility, bilingual database / راهنماها |
+| `assets/svg/` | Editable motif studies / موتیف‌های برداری قابل ویرایش |
+| `assets/raster/` | Generated visual drafts / پیش‌نویس‌های تصویری تولیدشده |
+| `assets/reference/attached/` | Owner supplied reference images / تصاویر مرجع پیوست‌شده |
+| `production/` | Asset briefs, inventory, quality and delivery rules / برنامه و کنترل کیفیت |
+| `preview/` | Local browsable brand database / پایگاه قابل مرور |
+
+Newly generated files and attached references are indexed in `assets/ASSET_REGISTER.md` and `assets/RASTER_MANIFEST.json`. Generated artwork remains draft until human acceptance.
 
 Sky Vision is a celestial-inspired identity system for a creative studio and an **image-optional project-management product**. It combines a crafted editorial surface with practical, accessible, high-density workflows.
 
