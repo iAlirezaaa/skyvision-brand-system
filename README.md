@@ -67,6 +67,8 @@ This repository houses **working documentation and original vector motif proposa
 
 ## Production inventory — one asset at a time
 
+See the bilingual [Work to Do list](production/WORK_TO_DO.md) for the practical remaining-work summary.
+
 **166 proposed individual visual deliverables**, organized into 14 families. These are the full *work plan*, not completed images.
 
 - [Full human-readable production backlog](production/ASSET_BACKLOG.md)
