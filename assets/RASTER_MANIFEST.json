@@ -257,6 +257,17 @@
       "provenance": "built-in-imagegen",
       "status": "draft",
       "qc": "Visual pass: centered orbital ribbon artwork, no embedded text or visible generation artifacts. Below print target."
+    },
+    {
+      "path": "assets/production/LG/LG-03.png",
+      "sha256": "32f749ab3ef02f9ccdd81584ac15e6c26b3604d9c220f948654863c8bff8d698",
+      "bytes": 806252,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "provenance": "built-in-imagegen; image-1 reference supplied in current task",
+      "status": "draft",
+      "qc": "Visual form follows reference logo structure; alpha verified; colored fringe at large scale, cleanup needed before practical logo export."
     }
   ]
 }

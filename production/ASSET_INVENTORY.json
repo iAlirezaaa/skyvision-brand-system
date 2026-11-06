@@ -233,15 +233,15 @@
       "category": "Logo and marks",
       "title": "Symbol only study",
       "priority": "P0",
-      "status": "queued",
+      "status": "draft",
       "review": "not-approved",
       "format": "PNG",
       "deliverable": "exactly-one-image",
       "aspect_ratio": "1:1",
       "target": "assets/production/LG/LG-03.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": "Proposed, not the final approved identity."
+      "actual_repository_file": "assets/production/LG/LG-03.png",
+      "source_artifact": "Built-in image generation based on the owner-supplied two-dimensional crescent, wave and orbit logo reference.",
+      "notes": "1254x1254 RGBA; emblem structure follows reference. Alpha channel present; colored edge fringe visible at large size, so use as exploration only pending cleanup and owner review."
     },
     {
       "id": "LG-04",
@@ -359,9 +359,9 @@
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/CL/CL-01.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/LG/LG-03.png",
+      "source_artifact": "Built-in image generation based on the owner-supplied two-dimensional crescent, wave and orbit logo reference.",
+      "notes": "1254x1254 RGBA; emblem structure follows reference. Alpha channel present; colored edge fringe visible at large size, so use as exploration only pending cleanup and owner review."
     },
     {
       "id": "CL-02",
