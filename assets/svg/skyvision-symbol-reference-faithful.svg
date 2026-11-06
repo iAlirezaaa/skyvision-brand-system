@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision 2D orbital wave symbol — vector study</title>
+  <desc id="desc">An open circular ring formed by ivory and mist-blue waves, with aligned crescents and fine gold orbit geometry.</desc>
+  <g fill="none" stroke="#D7B686" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="256" r="196" stroke-width="2" opacity=".78"/>
+    <circle cx="256" cy="256" r="181" stroke-width=".8" stroke-dasharray="1 8" opacity=".6"/>
+    <path d="M256 19v86M256 407v86" stroke-width="1.5"/>
+    <path d="M226 94h60M226 418h60" stroke-width="1.2"/>
+    <path d="M256 105v302" stroke-width=".75" opacity=".6"/>
+  </g>
+  <!-- Two interlocking flowing ribbons create the reference's open circular mark. -->
+  <path d="M113 177c37-73 92-107 151-103 45 3 72 25 102 61 19 23 37 43 68 44-20 22-48 30-78 20-32-10-53-36-77-58-22-20-44-31-70-26-36 7-56 39-77 79-27 53-51 103-73 141-20 35-39 54-67 61 22-29 36-65 51-105 19-49 37-82 70-114Z" fill="#F3E6D4" stroke="#D7B686" stroke-width="1.4"/>
+  <path d="M399 336c-37 73-92 107-151 103-45-3-72-25-102-61-19-23-37-43-68-44 20-22 48-30 78-20 32 10 53 36 77 58 22 20 44 31 70 26 36-7 56-39 77-79 27-53 51-103 73-141 20-35 39-54 67-61-22 29-36 65-51 105-19 49-37 82-70 114Z" fill="#8EBAAA" stroke="#D7B686" stroke-width="1.4"/>
+  <!-- Fine inner contour marks keep the forms graphic and 2D. -->
+  <path d="M112 178c-24 45-39 85-58 132M400 334c24-45 39-85 58-132" fill="none" stroke="#D7B686" stroke-width=".9" opacity=".8"/>
+  <!-- Axial crescents, echoing the supplied logo's top and bottom signature. -->
+  <path d="M233 79a27 27 0 1 0 47 0 21 21 0 1 1-47 0Z" fill="#F3E6D4" stroke="#D7B686" stroke-width="1.2"/>
+  <path d="M279 433a27 27 0 1 1-47 0 21 21 0 1 0 47 0Z" fill="#F3E6D4" stroke="#D7B686" stroke-width="1.2"/>
+  <g fill="#D7B686">
+    <circle cx="256" cy="111" r="4.5"/><circle cx="256" cy="401" r="4.5"/>
+    <circle cx="74" cy="256" r="3.5"/><circle cx="438" cy="256" r="3.5"/>
+    <path d="m147 130 3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
+    <path d="m365 356 2.5 8 8 2.5-8 2.5-2.5 8-2.5-8-8-2.5 8-2.5Z"/>
+    <circle cx="164" cy="112" r="2"/><circle cx="348" cy="400" r="2"/>
+  </g>
+</svg>

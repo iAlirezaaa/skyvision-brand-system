@@ -241,7 +241,7 @@
       "target": "assets/production/LG/LG-03.png",
       "actual_repository_file": "assets/production/LG/LG-03.png",
       "source_artifact": "Built-in image generation based on the owner-supplied two-dimensional crescent, wave and orbit logo reference.",
-      "notes": "1254x1254 RGBA; emblem structure follows reference. Alpha channel present; colored edge fringe visible at large size, so use as exploration only pending cleanup and owner review."
+      "notes": "1254x1254 RGBA; emblem structure follows reference. Alpha channel present; colored edge fringe visible at large size, so use as exploration only pending cleanup and owner review. A separate reference-faithful editable SVG geometry study is available at assets/svg/skyvision-symbol-reference-faithful.svg; inspect that vector source independently before reuse."
     },
     {
       "id": "LG-04",

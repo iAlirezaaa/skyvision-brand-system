@@ -1,8 +1,13 @@
 # Sky Vision — Complete Visual Asset Production Backlog
 
-**Status:** Proposed execution queue · 2026-11-03  
-**Total:** 166 individually tracked deliverables across 14 families.  
-**Active visual concept:** BG-01 only (draft image exists in conversation; **not uploaded, not approved**).
+**Status:** Proposed execution queue · 2026-11-06
+**Total:** 166 individually tracked deliverables across 14 families.
+**Current inventory snapshot:** 9 drafts, 157 queued, 0 approved (see `ASSET_INVENTORY.json`).
+**Active work:** LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved. BG-01 is a draft with repository transfer/verification still pending.
+
+## How to use this list
+
+This file is the human-readable **list of work to do** in the repository. Every row below is a planned production task with a stable ID, priority and status. `queued` means the task remains to be done; it does not mean an output exists. The machine-readable `ASSET_INVENTORY.json` is authoritative for live status and exact file paths. Work through one asset ID at a time, following its brief and `DELIVERY_STANDARD.md`; update both this list and the inventory when work changes. Draft work is not approved identity.
 
 > **Exactly one image per asset ID**. If a deliverable contains an icon collection, make one clean overview sheet, not several collages. Do not combine unrelated IDs into one image. Finish acceptance, owner review and source recording before marking APPROVED or proceeding.
 
@@ -19,7 +24,7 @@
 | Family | Count | Current state |
 |---|---:|---|
 | BG — Backgrounds | 12 | BG-01 draft; remainder queued |
-| LG — Logo and marks | 10 | Queued |
+| LG — Logo and marks | 10 | LG-03 draft; 9 queued |
 | CL — Color system | 8 | Queued |
 | TY — Typography | 8 | Queued |
 | MT — Motifs and patterns | 14 | Queued |

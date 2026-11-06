@@ -1,6 +1,6 @@
 # Sky Vision — Agent Handoff
 
-**Updated:** 2026-11-03  
+**Updated:** 2026-11-06
 **Current state:** Brand Book v0.1 and roadmap published as working proposals. Repository began as an empty public GitHub project.
 
 ## Purpose
@@ -61,3 +61,13 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 
 ### Next action, strictly sequential
 **BG-01** visual review / source rights / quality proof / verified upload. Only after owner approval advance to **BG-02**. Alongside this, resolve issue #1 for the 12 original rasters and review CI workflow. Do not claim any unverified binary asset is in the repository.
+
+## 2026-11-06 — backlog clarification and logo vector study
+
+- Clarified `production/WORK_TO_DO.md` as the repository's actionable remaining-work list and corrected its live snapshot to match inventory: **166 total, 9 draft, 157 queued, 0 approved**.
+- Clarified `production/ASSET_BACKLOG.md` usage and snapshot. Every listed ID is a planned task; queued items are not completed files.
+- Added `assets/svg/skyvision-symbol-reference-faithful.svg`, an editable 2D construction study following the supplied circular ribbon/crescent/orbit reference. It is a study, not a final or approved logo.
+- Linked the SVG in LG-03 inventory notes as a supporting editable source; PNG remains the inventory's single preview deliverable and remains draft pending QC/owner review.
+- Checks to run before commit: `python scripts/validate_repo.py`, `python scripts/check_inventory.py`, `git diff --check`, plus SVG render inspection. Update this handoff with observed results before calling the work ready.
+
+**Next production action:** work the next queued item in the approved sequence after completing LG-03 review and its reference-faithful source QC. Do not imply the larger work plan is finished.
