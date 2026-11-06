@@ -45,6 +45,7 @@
 | BG-06 | `assets/production/BG/BG-06.png` | Revised 941×1672 RGB; 2D circular ivory/mist-blue ribbon with cloud curls and gold orbits; upper clock-safe area. Preview inspected; draft, device crop not tested. |
 | MO-01 | `assets/production/MO/MO-01-logo-signature.gif` | 640×640, 36 frames, 90 ms/frame, infinite loop; code-drawn animation, reviewed visually. |
 | MO-02 | `assets/production/MO/MO-02-orbit-loop.gif` | 640×640, 24 frames, 90 ms/frame, infinite loop; seam mean absolute RGB difference 0.18/255. |
+| MO-03 | `assets/production/MO/MO-03.png` | Revised 1672×941 RGB 16:9 motion storyboard; three phases of one 2D ribbon ring, first/last frame composition matches. Draft; not an animation. |
 | IC-01 | `assets/production/IC/primary-navigation-icons.svg` | Original vector family of five navigation symbols; SVG parses and scales cleanly. |
 
 These are drafts, not approved brand assets. Generated PNGs are 1672px/941px class, below the 4K delivery target. GIF quality is suitable for small web previews; use the source SVG/geometry to make larger motion exports. Manifest hashes, exact dimensions and statuses are in `assets/RASTER_MANIFEST.json` and `production/ASSET_INVENTORY.json`.

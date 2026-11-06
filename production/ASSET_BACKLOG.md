@@ -3,7 +3,7 @@
 **Status:** Proposed execution queue · 2026-11-06
 **Total:** 166 individually tracked deliverables across 14 families.
 **Current inventory snapshot:** 20 drafts, 146 queued, 0 approved (see `ASSET_INVENTORY.json`).
-**Active work:** All 12 background IDs have repository PNG drafts. BG-02 and BG-06 were revised to align more closely with the 2D circular ribbon reference; BG-02/03/06 have received a batch visual QC pass. BG-09/10 PNG drafts are not pixel-seamless-certified; exact-repeat light/dark SVG masters are available under `assets/svg/`. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved.
+**Active work:** All 12 background IDs have repository PNG drafts. BG-02 and BG-06 were revised to align more closely with the 2D circular ribbon reference; BG-02/03/06 have received a batch visual QC pass. MO-03 was revised to a 16:9 three-phase motion storyboard; MO-01/02 remain GIF drafts. BG-09/10 PNG drafts are not pixel-seamless-certified; exact-repeat light/dark SVG masters are available under `assets/svg/`. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved.
 
 ## How to use this list
 

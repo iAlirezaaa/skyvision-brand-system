@@ -124,3 +124,14 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - QC: SVG parses; PNG is 1600×900 RGB, 16:9; hash and byte size recorded; preview visually inspected and no clipping found. Small-size legibility, destructive-action semantics in UI and owner review remain open.
 - Updated inventory, brief, backlog, manifest, asset register and work-to-do counts to **20 drafts / 146 queued / 0 approved**. The separate 12-template operational document backlog remains active.
 - Next visual item: IC-04 project and board actions. Continue batching related imagery, then QC each draft together before advancing.
+
+## 2026-11-06 — BG-02/BG-03/BG-06 batch QC and revisions
+
+- Reinspected existing drafts against the attached circular 2D logo reference. Replaced BG-02 with a quieter navy ribbon-wave background and BG-06 with a portrait interwoven ribbon-ring wallpaper; retained BG-03 as a suitable quiet ivory background.
+- Batch QC: files decode as RGB PNG; BG-02/03 are 1672×941 and BG-06 is 941×1672; hashes and sizes match the raster manifest. Visual previews checked. UI text contrast, device crop and print remain untested; all remain drafts.
+- Added individual briefs and clarified inventory/register notes. No count change because these IDs were already drafts.
+
+## 2026-11-06 — MO-03 motion storyboard revision
+
+- Replaced the previous portrait illustration (which contradicted the inventory's 16:9 ratio) with a landscape three-phase storyboard of the same 2D Sky Vision ribbon-ring mark.
+- QC: PNG decodes as 1672×941 RGB; labels and arrows visually checked; START/LOOP compositions match and DRIFT is distinct. It remains a storyboard, not an animated asset; temporal continuity and owner approval remain open.

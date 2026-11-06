@@ -2310,8 +2310,8 @@
       "aspect_ratio": "16:9",
       "target": "assets/production/MO/MO-03.png",
       "actual_repository_file": "assets/production/MO/MO-03.png",
-      "source_artifact": "Generated image for the repository based on supplied celestial illustration reference.",
-      "notes": "1024x1536 RGB; visual pass; no text; draft, below print-resolution target."
+      "source_artifact": "Revised built-in image generation based on owner-supplied 2D circular ribbon logo reference.",
+      "notes": "Revised draft QC: 1672x941 RGB PNG, 16:9. One three-phase ambient-motion storyboard of the same 2D ribbon ring; START and LOOP match, DRIFT is visibly rotated, arrows and labels are legible. Not a rendered animation; not approved."
     },
     {
       "id": "MO-04",

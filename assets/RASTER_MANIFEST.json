@@ -447,14 +447,14 @@
     },
     {
       "path": "assets/production/MO/MO-03.png",
-      "sha256": "58725c2eb3ed3c26dfc0e99e193f7022d83d0a57172b6d4293d6f0388fb743f4",
-      "bytes": 2230748,
-      "width": 1024,
-      "height": 1536,
+      "sha256": "2e20b74c52d9153f27f1ac0bd2506249f4aaf7a5503e7732c01292beb74afefc",
+      "bytes": 1428563,
+      "width": 1672,
+      "height": 941,
       "format": "PNG RGB",
       "provenance": "built-in-imagegen",
       "status": "draft",
-      "qc": "Visual pass: centered orbital ribbon artwork, no embedded text or visible generation artifacts. Below print target."
+      "qc": "Revised landscape 16:9 storyboard; PNG decodes at 1672x941 RGB. Three phases show the same 2D ribbon ring, matching START/LOOP composition, visible DRIFT change, arrows, legible labels and 8s ease-in/out. Visually inspected; storyboard only, not an animation; not approved."
     },
     {
       "path": "assets/production/LG/LG-03.png",
