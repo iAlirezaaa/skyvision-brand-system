@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision secondary navigation icon family</title>
+  <desc id="desc">Five consistent two-dimensional outline icons for Calendar, Files, Search, Notifications and Settings.</desc>
+  <rect width="1600" height="900" fill="#0B1220"/>
+  <g fill="none" stroke="#D7B686" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Calendar -->
+    <rect x="110" y="190" width="245" height="225" rx="18"/>
+    <path d="M110 256h245M170 165v52m125-52v52" stroke="#8EABBA"/>
+    <path d="M165 304h1m62 0h1m62 0h1m-124 57h1m62 0h1" stroke-width="18"/>
+    <!-- Files / archive -->
+    <path d="M430 215h115l35 38h135v162H430z"/>
+    <path d="M430 266h285m-195 47h100m-100 38h75" stroke="#8EABBA" stroke-width="7"/>
+    <!-- Search -->
+    <circle cx="880" cy="292" r="86"/>
+    <path d="m942 354 75 75" stroke="#8EABBA" stroke-width="13"/>
+    <circle cx="880" cy="292" r="38" stroke-width="5" opacity=".7"/>
+    <!-- Notifications -->
+    <path d="M1110 347c22-22 28-45 28-91 0-53 30-88 74-88s74 35 74 88c0 46 6 69 28 91l20 19h-244z"/>
+    <path d="M1190 397c5 27 13 39 22 39s17-12 22-39" stroke="#8EABBA"/>
+    <circle cx="1212" cy="149" r="7" fill="#D7B686" stroke="none"/>
+    <!-- Settings -->
+    <circle cx="1500" cy="300" r="76"/>
+    <circle cx="1500" cy="300" r="29" stroke="#8EABBA"/>
+    <path d="M1500 173v30m0 194v30m127-127h-30m-194 0h-30m217-90-22 22m-136 136-22 22m0-180 22 22m136 136 22 22"/>
+    <circle cx="1500" cy="300" r="121" stroke-width="4" opacity=".48"/>
+  </g>
+  <g fill="#F3E6D4" font-family="Georgia, serif" font-size="38" text-anchor="middle" letter-spacing="2">
+    <text x="232" y="560">CALENDAR</text>
+    <text x="572" y="560">FILES</text>
+    <text x="880" y="560">SEARCH</text>
+    <text x="1212" y="560">ALERTS</text>
+    <text x="1500" y="560">SETTINGS</text>
+  </g>
+  <text x="800" y="735" fill="#8EABBA" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" letter-spacing="3">SECONDARY NAVIGATION · 2D OUTLINE SET</text>
+</svg>

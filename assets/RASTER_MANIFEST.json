@@ -336,6 +336,17 @@
       "qc": "PNG decodes; 1600x900 RGB; 16:9. Five independent outline icons and labels visually inspected. Small-size legibility and product integration are not yet validated."
     },
     {
+      "path": "assets/production/IC/IC-02.png",
+      "sha256": "970f73d277a4476bafeb438b0d93ad88e945e6bf5b3d432fc43d0d1033488b30",
+      "bytes": 67970,
+      "width": 1600,
+      "height": 900,
+      "format": "PNG RGB",
+      "provenance": "Rendered with Microsoft Edge from assets/production/IC/IC-02.svg",
+      "status": "draft",
+      "qc": "PNG decodes; 1600x900 RGB; 16:9. Calendar, Files, Search, Alerts and Settings outline icons visually inspected. Small-size legibility not yet validated."
+    },
+    {
       "path": "assets/production/BG/BG-07.png",
       "sha256": "778bb87d941ac73de7e7a47d985747eaf6bb4338a2d96f50bb10de3731d85d8a",
       "bytes": 1164501,

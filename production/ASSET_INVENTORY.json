@@ -818,15 +818,15 @@
       "category": "Icons",
       "title": "Secondary navigation icon family",
       "priority": "P1",
-      "status": "queued",
+      "status": "draft",
       "review": "not-approved",
       "format": "PNG",
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/IC/IC-02.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/IC/IC-02.png",
+      "source_artifact": "Original 2D SVG sheet at assets/production/IC/IC-02.svg; PNG rendered from the SVG source in Edge.",
+      "notes": "Draft QC: 1600x900 RGB PNG, 16:9. Five consistent outline concepts for Calendar, Files, Search, Alerts and Settings on midnight navy; preview inspected and SVG parses. Not tested at 16px or approved."
     },
     {
       "id": "IC-03",

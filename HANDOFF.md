@@ -111,3 +111,9 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Created `assets/production/IC/IC-01.svg` and rendered its 1600×900 PNG preview for Home, Projects, Tasks, Team and Focus.
 - QC: source SVG parses; PNG decodes and dimensions/hash are recorded; visual preview inspected. Small-size (16px), Persian/RTL and product-context tests remain open.
 - Updated inventory, brief, backlog, manifest and asset register. IC-01 remains draft; no approval implied.
+
+## 2026-11-06 — IC-02 secondary navigation icon draft
+
+- Added a five-icon secondary navigation sheet (Calendar, Files, Search, Alerts, Settings) with editable SVG source and 1600×900 PNG preview.
+- QC: SVG parses; PNG dimensions, RGB mode and hash verified; rendered preview visually inspected. Small-scale UI use is not yet validated.
+- Updated inventory, brief, backlog, manifest and asset register. IC-02 remains draft.
