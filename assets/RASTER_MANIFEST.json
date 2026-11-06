@@ -347,6 +347,17 @@
       "qc": "PNG decodes; 1600x900 RGB; 16:9. Calendar, Files, Search, Alerts and Settings outline icons visually inspected. Small-size legibility not yet validated."
     },
     {
+      "path": "assets/production/IC/IC-03.png",
+      "sha256": "ea8b5947dee769f4dad21165aebfcf9f14dadac3ab194766c81022c88359d33c",
+      "bytes": 51572,
+      "width": 1600,
+      "height": 900,
+      "format": "PNG RGB",
+      "provenance": "Rendered with Microsoft Edge from assets/production/IC/IC-03.svg",
+      "status": "draft",
+      "qc": "PNG decodes; 1600x900 RGB; 16:9. Add Task, Edit, Complete, Due Date and Delete icons visually inspected. Small-size legibility and UI integration are not yet validated."
+    },
+    {
       "path": "assets/production/BG/BG-07.png",
       "sha256": "778bb87d941ac73de7e7a47d985747eaf6bb4338a2d96f50bb10de3731d85d8a",
       "bytes": 1164501,

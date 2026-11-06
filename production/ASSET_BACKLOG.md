@@ -2,7 +2,7 @@
 
 **Status:** Proposed execution queue · 2026-11-06
 **Total:** 166 individually tracked deliverables across 14 families.
-**Current inventory snapshot:** 19 drafts, 147 queued, 0 approved (see `ASSET_INVENTORY.json`).
+**Current inventory snapshot:** 20 drafts, 146 queued, 0 approved (see `ASSET_INVENTORY.json`).
 **Active work:** All 12 background IDs now have repository PNG drafts. BG-09/10 PNG drafts are not pixel-seamless-certified; exact-repeat light/dark SVG masters are available under `assets/svg/`. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved.
 
 ## How to use this list
@@ -28,7 +28,7 @@ This file is the human-readable **visual production list of work to do** in the 
 | CL — Color system | 8 | Queued |
 | TY — Typography | 8 | Queued |
 | MT — Motifs and patterns | 14 | Queued |
-| IC — Icons | 14 | IC-01/02 draft; 12 queued |
+| IC — Icons | 14 | IC-01/03 draft; 11 queued |
 | DS — UI components | 20 | Queued |
 | PM — Project-management screens | 16 | Queued |
 | MB — Mobile product screens | 10 | Queued |
@@ -135,7 +135,7 @@ Product and brand icon sheets. Default aspect **16:9**; final dimension/export p
 |---|---|---|---|
 | IC-01 | Primary navigation icon family | P1 | draft |
 | IC-02 | Secondary navigation icon family | P1 | draft |
-| IC-03 | Task actions icon family | P1 | queued |
+| IC-03 | Task actions icon family | P1 | draft |
 | IC-04 | Project and board actions | P1 | queued |
 | IC-05 | Status and priority symbols | P1 | queued |
 | IC-06 | File and media icons | P1 | queued |

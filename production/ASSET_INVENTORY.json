@@ -839,9 +839,9 @@
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/IC/IC-03.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/IC/IC-03.png",
+      "source_artifact": "Original 2D SVG sheet at assets/production/IC/IC-03.svg; PNG rendered from the SVG source in Edge.",
+      "notes": "Draft QC: 1600x900 RGB PNG, 16:9. Five consistent outline concepts for Add Task, Edit, Complete, Due Date and Delete on midnight navy; preview inspected and SVG parses. Not tested at 16px or approved."
     },
     {
       "id": "IC-04",

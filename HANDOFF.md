@@ -117,3 +117,10 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Added a five-icon secondary navigation sheet (Calendar, Files, Search, Alerts, Settings) with editable SVG source and 1600×900 PNG preview.
 - QC: SVG parses; PNG dimensions, RGB mode and hash verified; rendered preview visually inspected. Small-scale UI use is not yet validated.
 - Updated inventory, brief, backlog, manifest and asset register. IC-02 remains draft.
+
+## 2026-11-06 — IC-03 task actions icon draft
+
+- Added a five-icon task action overview (Add Task, Edit, Complete, Due Date, Delete) as an editable SVG and rendered PNG.
+- QC: SVG parses; PNG is 1600×900 RGB, 16:9; hash and byte size recorded; preview visually inspected and no clipping found. Small-size legibility, destructive-action semantics in UI and owner review remain open.
+- Updated inventory, brief, backlog, manifest, asset register and work-to-do counts to **20 drafts / 146 queued / 0 approved**. The separate 12-template operational document backlog remains active.
+- Next visual item: IC-04 project and board actions. Continue batching related imagery, then QC each draft together before advancing.

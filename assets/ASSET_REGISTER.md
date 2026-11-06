@@ -41,6 +41,7 @@
 | BG-12 | `assets/production/BG/BG-12.png` | 1672×941 RGB; minimal midnight orbit-only backdrop with clear center. Draft. |
 | IC-01 | `assets/production/IC/IC-01.png` | 1600×900 RGB; five primary navigation icon concepts on midnight navy. Rendered from editable `IC-01.svg`; draft, not tested at 16px. |
 | IC-02 | `assets/production/IC/IC-02.png` | 1600×900 RGB; Calendar, Files, Search, Alerts and Settings secondary navigation concepts. Rendered from editable `IC-02.svg`; draft, not tested at 16px. |
+| IC-03 | `assets/production/IC/IC-03.png` | 1600×900 RGB; Add Task, Edit, Complete, Due Date and Delete concepts. Rendered from editable `IC-03.svg`; preview inspected; draft, not tested at 16px. |
 | BG-06 | `assets/production/BG/BG-06.png` | 941×1672 RGB; visual pass as portrait dark wallpaper. |
 | MO-01 | `assets/production/MO/MO-01-logo-signature.gif` | 640×640, 36 frames, 90 ms/frame, infinite loop; code-drawn animation, reviewed visually. |
 | MO-02 | `assets/production/MO/MO-02-orbit-loop.gif` | 640×640, 24 frames, 90 ms/frame, infinite loop; seam mean absolute RGB difference 0.18/255. |

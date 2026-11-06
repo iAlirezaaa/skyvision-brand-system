@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision task action icon family</title>
+  <desc id="desc">Five consistent two-dimensional outline icons for Add, Edit, Complete, Due Date and Delete task actions.</desc>
+  <rect width="1600" height="900" fill="#0B1220"/>
+  <g fill="none" stroke="#D7B686" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Add -->
+    <circle cx="230" cy="292" r="104"/>
+    <path d="M230 235v114m-57-57h114" stroke="#8EABBA" stroke-width="13"/>
+    <!-- Edit -->
+    <path d="m500 356 24-92 144-144 68 68-144 144z"/>
+    <path d="m648 120 68 68m-192 168 92-24" stroke="#8EABBA"/>
+    <!-- Complete -->
+    <circle cx="880" cy="292" r="104"/>
+    <path d="m824 292 38 40 78-88" stroke="#8EABBA" stroke-width="13"/>
+    <!-- Due date / clock -->
+    <circle cx="1190" cy="292" r="104"/>
+    <path d="M1190 224v72l50 30" stroke="#8EABBA" stroke-width="11"/>
+    <path d="M1154 164v25m72-25v25M1114 202h152"/>
+    <!-- Delete -->
+    <path d="M1428 210h144m-124 0 12 184h80l12-184m-96-43h72m-59 0 7-21h44l7 21m-47 44v115m36-115v115"/>
+  </g>
+  <g fill="#F3E6D4" font-family="Georgia, serif" font-size="37" text-anchor="middle" letter-spacing="2">
+    <text x="230" y="560">ADD TASK</text>
+    <text x="610" y="560">EDIT</text>
+    <text x="880" y="560">COMPLETE</text>
+    <text x="1190" y="560">DUE DATE</text>
+    <text x="1500" y="560">DELETE</text>
+  </g>
+  <text x="800" y="735" fill="#8EABBA" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" letter-spacing="3">TASK ACTIONS · 2D OUTLINE SET</text>
+</svg>
