@@ -45,8 +45,8 @@
       "aspect_ratio": "16:9",
       "target": "assets/production/BG/BG-02.png",
       "actual_repository_file": "assets/production/BG/BG-02.png",
-      "source_artifact": "Generated for repository visual library; QC metadata in assets/RASTER_MANIFEST.json",
-      "notes": "QC dimensions 1672x941; PNG RGB; draft not brand-approved."
+      "source_artifact": "Generated as a standalone 2D Sky Vision quiet-background draft; owner reference image-1; details in assets/RASTER_MANIFEST.json and production/briefs/BG-02.md",
+      "notes": "Revised draft QC: 1672x941 RGB PNG, 16:9. Minimal midnight field with substantial negative space, thin corner orbits, muted-gold compass star and a low ivory/mist-blue 2D ribbon wave. Preview visually inspected; not contrast-tested with UI copy or approved."
     },
     {
       "id": "BG-03",
@@ -60,8 +60,8 @@
       "aspect_ratio": "16:9",
       "target": "assets/production/BG/BG-03.png",
       "actual_repository_file": "assets/production/BG/BG-03.png",
-      "source_artifact": "Generated for repository visual library; QC metadata in assets/RASTER_MANIFEST.json",
-      "notes": "QC dimensions 1672x941; PNG RGB; draft not brand-approved."
+      "source_artifact": "Existing standalone light celestial background; owner reference image-1; QC details in assets/RASTER_MANIFEST.json and production/briefs/BG-03.md",
+      "notes": "Batch QC: 1672x941 RGB PNG, 16:9. Warm-ivory quiet composition, broad open left/center area, fine pale-blue lower-right wave and sparse muted-gold stars. Visual review found no visible artifacts; text-contrast/print tests remain; not approved."
     },
     {
       "id": "BG-04",
@@ -105,8 +105,8 @@
       "aspect_ratio": "9:16",
       "target": "assets/production/BG/BG-06.png",
       "actual_repository_file": "assets/production/BG/BG-06.png",
-      "source_artifact": "Generated for repository visual library; QC metadata in assets/RASTER_MANIFEST.json",
-      "notes": "QC dimensions 941x1672; PNG RGB; draft not brand-approved."
+      "source_artifact": "Generated as a standalone 2D Sky Vision mobile wallpaper draft; owner reference image-1; details in assets/RASTER_MANIFEST.json and production/briefs/BG-06.md",
+      "notes": "Revised draft QC: 941x1672 RGB PNG, portrait 9:16. Interwoven ivory/mist-blue 2D circular ribbon, integrated cloud curls, delicate gold orbits and stars; generous upper clock-safe field. Preview visually inspected; device crop and lock-screen contrast not tested; not approved."
     },
     {
       "id": "BG-07",

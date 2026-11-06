@@ -205,14 +205,14 @@
     },
     {
       "path": "assets/production/BG/BG-02.png",
-      "sha256": "38ad501a0959a1b1da5ac761021a45b966da738391056f8e7f11c83144eb770e",
-      "bytes": 1544005,
+      "sha256": "e82640c04c42c901eb79dfc233b5ae9d729221005210f572592857dd602fa1be",
+      "bytes": 1183321,
       "width": 1672,
       "height": 941,
       "format": "PNG RGB",
-      "provenance": "generated-for-this-repository",
+      "provenance": "built-in-imagegen; revised from owner-supplied 2D logo reference",
       "status": "draft",
-      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+      "qc": "Revised 16:9 dark background; PNG decodes at 1672x941 RGB. Quiet navy field, fine corner orbits, small gold compass star and restrained lower ivory/blue wave. Visually inspected; text contrast not tested; not approved."
     },
     {
       "path": "assets/production/BG/BG-03.png",
@@ -223,7 +223,7 @@
       "format": "PNG RGB",
       "provenance": "generated-for-this-repository",
       "status": "draft",
-      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+      "qc": "Batch visual QC: PNG decodes at 1672x941 RGB. Quiet warm-ivory field with open center, restrained lower-right mist-blue wave and sparse gold stars; no obvious preview artifacts. Text contrast and print not tested; not approved."
     },
     {
       "path": "assets/production/BG/BG-04.png",
@@ -249,14 +249,14 @@
     },
     {
       "path": "assets/production/BG/BG-06.png",
-      "sha256": "7153c8d3ae5311a3e8fdc8dbd49f0ee66ba979603c794ece4e3bbc7f0f2436e9",
-      "bytes": 2303839,
+      "sha256": "ab1dbd69bdfcb72373b176d6dc58138db17521df2d7cd455e9821cf0fbb4b00d",
+      "bytes": 1284788,
       "width": 941,
       "height": 1672,
       "format": "PNG RGB",
-      "provenance": "generated-for-this-repository",
+      "provenance": "built-in-imagegen; revised from owner-supplied 2D circular ribbon logo reference",
       "status": "draft",
-      "qc": "Visual review passed; see per-file notes and limitations in asset register."
+      "qc": "Revised portrait 9:16 wallpaper; PNG decodes at 941x1672 RGB. Centered 2D interwoven ribbon ring with clouds, gold orbit/stars and generous upper safe space. Visually inspected; device crop/contrast not tested; not approved."
     },
     {
       "path": "assets/production/BG/BG-07.png",

@@ -29,8 +29,8 @@
 | Inventory ID | File | QC result |
 |---|---|---|
 | BG-01 | `assets/production/BG/BG-01.png` | 1672×941 RGB; centered open circular 2D wave/cloud/orbit hero on midnight navy; draft, below 4K target. |
-| BG-02 | `assets/production/BG/BG-02.png` | 1672×941 RGB; visual pass as quiet dark background with clear center. |
-| BG-03 | `assets/production/BG/BG-03.png` | 1672×941 RGB; visual pass as quiet light background with clear text area. |
+| BG-02 | `assets/production/BG/BG-02.png` | Revised 1672×941 RGB; quiet navy negative space, fine corner orbits, small compass star and restrained lower 2D ribbon wave. Preview inspected; draft, not text-contrast tested or approved. |
+| BG-03 | `assets/production/BG/BG-03.png` | 1672×941 RGB; warm ivory with broad open area, quiet pale-blue wave and sparse gold stars. Batch preview inspected; draft, text-contrast/print not tested. |
 | BG-04 | `assets/production/BG/BG-04.png` | 1672×941 RGB; visual pass as quiet ivory utility background, open center, restrained lower wave/clouds and sparse gold orbit lines. Draft; not contrast-tested or approved. |
 | BG-05 | `assets/production/BG/BG-05.png` | 1672×941 RGB; quiet ivory document background with ample reading space and a single lower-right ribbon motif. Draft; not print-tested or approved. |
 | BG-07 | `assets/production/BG/BG-07.png` | 941×1672 RGB; warm light mobile wallpaper with lower circular 2D ribbon motif and clear upper field. Draft. |
@@ -42,7 +42,7 @@
 | IC-01 | `assets/production/IC/IC-01.png` | 1600×900 RGB; five primary navigation icon concepts on midnight navy. Rendered from editable `IC-01.svg`; draft, not tested at 16px. |
 | IC-02 | `assets/production/IC/IC-02.png` | 1600×900 RGB; Calendar, Files, Search, Alerts and Settings secondary navigation concepts. Rendered from editable `IC-02.svg`; draft, not tested at 16px. |
 | IC-03 | `assets/production/IC/IC-03.png` | 1600×900 RGB; Add Task, Edit, Complete, Due Date and Delete concepts. Rendered from editable `IC-03.svg`; preview inspected; draft, not tested at 16px. |
-| BG-06 | `assets/production/BG/BG-06.png` | 941×1672 RGB; visual pass as portrait dark wallpaper. |
+| BG-06 | `assets/production/BG/BG-06.png` | Revised 941×1672 RGB; 2D circular ivory/mist-blue ribbon with cloud curls and gold orbits; upper clock-safe area. Preview inspected; draft, device crop not tested. |
 | MO-01 | `assets/production/MO/MO-01-logo-signature.gif` | 640×640, 36 frames, 90 ms/frame, infinite loop; code-drawn animation, reviewed visually. |
 | MO-02 | `assets/production/MO/MO-02-orbit-loop.gif` | 640×640, 24 frames, 90 ms/frame, infinite loop; seam mean absolute RGB difference 0.18/255. |
 | IC-01 | `assets/production/IC/primary-navigation-icons.svg` | Original vector family of five navigation symbols; SVG parses and scales cleanly. |
