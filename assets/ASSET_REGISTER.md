@@ -58,9 +58,9 @@ Hashes and file sizes are maintained in `assets/RASTER_MANIFEST.json`. User-supp
 
 | Planned output path | Source | GitHub status |
 |---|---|---|
-| `assets/production/BG/BG-01.png` | A single dark celestial hero image generated in conversation (`celestial_yin_yang_orbit_in_midnight_blue.png`) | **DRAFT — source not verified in GitHub, not approved** |
+| `assets/production/BG/BG-01.png` | Generated dark celestial hero background | **DRAFT — present in GitHub; hash and dimensions recorded; not approved** |
 
-See [production inventory](../production/ASSET_INVENTORY.json) for the 166-asset backlog. Do not include BG-01 as a hash-verified source image until the actual binary is transferred, its exact size and SHA-256 recorded, and permission confirmed.
+See [production inventory](../production/ASSET_INVENTORY.json) for the 166-asset backlog. All twelve BG draft files are present and recorded; none are approved.
 
 ## Live vector asset studies
 New original SVG motif studies under `assets/svg/` are editable **proposals**. Their existence does not imply final logo approval.
@@ -72,8 +72,10 @@ New original SVG motif studies under `assets/svg/` are editable **proposals**. T
 | `assets/svg/skyvision-crescent-motif.svg` | Crescent with small orbit/star details | XML parses; viewBox present; no background rectangle; rendered preview inspected. |
 | `assets/svg/skyvision-cloud-curl-motif.svg` | Single cloud curl flowing into a ribbon | XML parses; viewBox present; no background rectangle; rendered preview inspected. |
 | `assets/svg/skyvision-compass-star-motif.svg` | Four-point compass star and orbit rings | XML parses; viewBox present; no background rectangle; rendered preview inspected. |
+| `assets/svg/skyvision-seamless-pattern-dark.svg` | Midnight repeat pattern tile | SVG pattern tile repeats at 256×256; rendered 2×2 preview; internal join RGB difference 0. |
+| `assets/svg/skyvision-seamless-pattern-light.svg` | Warm ivory repeat pattern tile | SVG pattern tile repeats at 256×256; rendered 2×2 preview; internal join RGB difference 0. |
 
-These are standalone transparent SVGs outside the 166-image inventory, intended as reusable decorations. They do not replace or redefine the circular primary logo study.
+The three motif SVGs are transparent cutouts; the two pattern SVGs are opaque repeat backgrounds. All five are outside the 166-image inventory and remain editable proposals. They do not replace or redefine the circular primary logo study.
 
 ## Asset submission protocol
 1. Confirm artwork publishing permissions and repository visibility.

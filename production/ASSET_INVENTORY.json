@@ -151,7 +151,7 @@
       "target": "assets/production/BG/BG-09.png",
       "actual_repository_file": "assets/production/BG/BG-09.png",
       "source_artifact": "Built-in image generation; tiled preview inspected across 2x2 repetitions.",
-      "notes": "Draft QC: 1254x1254 RGB PNG. 2x2 tiled preview shows no obvious seam; opposite-edge mean absolute RGB difference 1.41 (horizontal) / 3.02 (vertical), so strict pixel-seamlessness is not certified."
+      "notes": "Draft QC: 1254x1254 RGB PNG. 2x2 tiled preview shows no obvious seam; opposite-edge mean absolute RGB difference 1.41 (horizontal) / 3.02 (vertical), so this raster is not certified pixel-seamless. Exact repeating SVG master: assets/svg/skyvision-seamless-pattern-dark.svg (256x256 tile, rendered internal joins measured 0 RGB difference)."
     },
     {
       "id": "BG-10",
@@ -166,7 +166,7 @@
       "target": "assets/production/BG/BG-10.png",
       "actual_repository_file": "assets/production/BG/BG-10.png",
       "source_artifact": "Built-in image generation; tiled preview inspected across 2x2 repetitions.",
-      "notes": "Draft QC: 1254x1254 RGB PNG. 2x2 tiled preview shows no obvious seam; opposite-edge mean absolute RGB difference 1.67 (horizontal) / 1.37 (vertical), so strict pixel-seamlessness is not certified."
+      "notes": "Draft QC: 1254x1254 RGB PNG. 2x2 tiled preview shows no obvious seam; opposite-edge mean absolute RGB difference 1.67 (horizontal) / 1.37 (vertical), so this raster is not certified pixel-seamless. Exact repeating SVG master: assets/svg/skyvision-seamless-pattern-light.svg (256x256 tile, rendered internal joins measured 0 RGB difference)."
     },
     {
       "id": "BG-11",

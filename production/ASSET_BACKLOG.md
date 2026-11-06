@@ -3,7 +3,7 @@
 **Status:** Proposed execution queue · 2026-11-06
 **Total:** 166 individually tracked deliverables across 14 families.
 **Current inventory snapshot:** 17 drafts, 149 queued, 0 approved (see `ASSET_INVENTORY.json`).
-**Active work:** All 12 background IDs now have repository PNG drafts. BG-09/10 have tiled visual checks but strict pixel seamlessness still needs QC. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved.
+**Active work:** All 12 background IDs now have repository PNG drafts. BG-09/10 PNG drafts are not pixel-seamless-certified; exact-repeat light/dark SVG masters are available under `assets/svg/`. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved.
 
 ## How to use this list
 

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision midnight seamless pattern</title>
+  <desc id="desc">A mathematically repeating navy tile with fine gold orbits, mist-blue ribbons and small compass stars.</desc>
+  <defs>
+    <pattern id="tile" width="256" height="256" patternUnits="userSpaceOnUse">
+      <rect width="256" height="256" fill="#0B1220"/>
+      <g fill="none" stroke-linecap="round">
+        <circle cx="64" cy="64" r="39" stroke="#D7B686" stroke-width="1" opacity=".56"/>
+        <circle cx="192" cy="192" r="45" stroke="#D7B686" stroke-width=".85" opacity=".45"/>
+        <path d="M8 180c34-24 65-24 96 0s62 24 96 0 34-23 48-14" stroke="#8EABBA" stroke-width="1.5" opacity=".72"/>
+        <path d="M8 188c34-24 65-24 96 0s62 24 96 0 34-23 48-14" stroke="#D7B686" stroke-width=".55" opacity=".55"/>
+        <path d="M144 18c20 18 30 39 28 64" stroke="#1F3856" stroke-width="2" opacity=".8"/>
+      </g>
+      <g fill="#D7B686">
+        <path d="m192 42 4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/>
+        <circle cx="64" cy="25" r="2.4"/><circle cx="230" cy="128" r="2"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#tile)"/>
+</svg>

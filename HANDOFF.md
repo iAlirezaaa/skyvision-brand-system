@@ -99,3 +99,9 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Added three editable SVG cutouts: crescent, cloud/ribbon curl, and compass star. They have transparent canvases and remain separate from the circular primary logo study.
 - QC: XML parsed, viewBox present, no background rectangle; each was rendered in Edge and visually inspected. These are supporting motif proposals, not approved identity marks.
 - Updated SVG index, asset register and the Persian work list.
+
+## 2026-11-06 — exact vector repeat patterns
+
+- Added separate light and dark SVG pattern tiles at `assets/svg/skyvision-seamless-pattern-*.svg`; both use a 256×256 SVG user-space tile.
+- Rendered both at 512×512 in Edge, tiled as 2×2 previews, inspected visually, and measured internal join RGB difference at 0 in both axes.
+- Kept earlier generated BG-09/BG-10 PNGs as exploratory drafts with their limitation recorded; the new SVGs are exact-repeat masters.

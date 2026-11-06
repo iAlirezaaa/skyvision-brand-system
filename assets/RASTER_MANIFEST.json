@@ -289,7 +289,7 @@
       "format": "PNG RGB",
       "provenance": "built-in-imagegen; generated for BG-09 and inspected as 2x2 tiled preview",
       "status": "draft",
-      "qc": "No obvious seam in 2x2 preview. Opposite-edge RGB MAE 1.41 horizontal / 3.02 vertical; exact seamlessness not certified. Not approved."
+      "qc": "Raster itself is not certified pixel-seamless: opposite-edge RGB MAE 1.41 horizontal / 3.02 vertical. A separate exact-repeat SVG master is available at assets/svg/skyvision-seamless-pattern-dark.svg. Not approved."
     },
     {
       "path": "assets/production/BG/BG-10.png",
@@ -300,7 +300,7 @@
       "format": "PNG RGB",
       "provenance": "built-in-imagegen; generated for BG-10 and inspected as 2x2 tiled preview",
       "status": "draft",
-      "qc": "No obvious seam in 2x2 preview. Opposite-edge RGB MAE 1.67 horizontal / 1.37 vertical; exact seamlessness not certified. Not approved."
+      "qc": "Raster itself is not certified pixel-seamless: opposite-edge RGB MAE 1.67 horizontal / 1.37 vertical. A separate exact-repeat SVG master is available at assets/svg/skyvision-seamless-pattern-light.svg. Not approved."
     },
     {
       "path": "assets/production/BG/BG-11.png",
