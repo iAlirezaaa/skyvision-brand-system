@@ -68,15 +68,15 @@
       "category": "Backgrounds",
       "title": "Quiet secondary light background",
       "priority": "P0",
-      "status": "queued",
+      "status": "draft",
       "review": "not-approved",
       "format": "PNG",
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/BG/BG-04.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/BG/BG-04.png",
+      "source_artifact": "Built-in image generation based on the owner-supplied two-dimensional wave, cloud and orbit references.",
+      "notes": "Draft QC: 1672x941 RGB PNG, 16:9. One quiet warm-ivory background; broad central negative space; restrained mist-blue lower ribbon/clouds and fine muted-gold orbital accents; no text or extra scene. Visual inspection found no obvious generation artifacts at preview size. Not tested for print or text contrast; not brand-approved."
     },
     {
       "id": "BG-05",

@@ -2,8 +2,8 @@
 
 **Status:** Proposed execution queue · 2026-11-06
 **Total:** 166 individually tracked deliverables across 14 families.
-**Current inventory snapshot:** 9 drafts, 157 queued, 0 approved (see `ASSET_INVENTORY.json`).
-**Active work:** LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved. BG-01 is a draft with repository transfer/verification still pending.
+**Current inventory snapshot:** 10 drafts, 156 queued, 0 approved (see `ASSET_INVENTORY.json`).
+**Active work:** BG-04 is a quiet light background draft. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved. BG-01 is a draft with repository transfer/verification still pending.
 
 ## How to use this list
 
@@ -23,7 +23,7 @@ This file is the human-readable **list of work to do** in the repository. Every 
 
 | Family | Count | Current state |
 |---|---:|---|
-| BG — Backgrounds | 12 | BG-01 draft; remainder queued |
+| BG — Backgrounds | 12 | BG-01–BG-04 and BG-06 draft; 7 queued |
 | LG — Logo and marks | 10 | LG-03 draft; 9 queued |
 | CL — Color system | 8 | Queued |
 | TY — Typography | 8 | Queued |
@@ -47,11 +47,11 @@ Hero and utility imagery. Default aspect **16:9**; final dimension/export policy
 | ID | Deliverable | Priority | Status |
 |---|---|---|---|
 | BG-01 | Primary dark celestial hero background | P0 | draft |
-| BG-02 | Quiet secondary dark background | P0 | queued |
-| BG-03 | Primary light celestial hero background | P0 | queued |
-| BG-04 | Quiet secondary light background | P0 | queued |
+| BG-02 | Quiet secondary dark background | P0 | draft |
+| BG-03 | Primary light celestial hero background | P0 | draft |
+| BG-04 | Quiet secondary light background | P0 | draft |
 | BG-05 | Minimal slide/document background | P1 | queued |
-| BG-06 | Mobile dark celestial wallpaper | P1 | queued |
+| BG-06 | Mobile dark celestial wallpaper | P1 | draft |
 | BG-07 | Mobile light celestial wallpaper | P1 | queued |
 | BG-08 | Footer wave divider background | P1 | queued |
 | BG-09 | Dark seamless repeat tile | P1 | queued |

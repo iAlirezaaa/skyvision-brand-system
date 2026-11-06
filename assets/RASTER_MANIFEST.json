@@ -215,6 +215,17 @@
       "qc": "Visual review passed; see per-file notes and limitations in asset register."
     },
     {
+      "path": "assets/production/BG/BG-04.png",
+      "sha256": "84e168644de3360a7851be803de7d3888109874ee250104b52bf79c2db7b569a",
+      "bytes": 1989023,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-04 using owner-supplied two-dimensional wave/cloud/orbit reference",
+      "status": "draft",
+      "qc": "Decoded successfully; 16:9 dimensions and RGB mode verified; visually inspected at preview size. Quiet central field and restrained border ornament; no obvious artifacts or text. Print quality and text contrast not tested; not approved."
+    },
+    {
       "path": "assets/production/BG/BG-06.png",
       "sha256": "7153c8d3ae5311a3e8fdc8dbd49f0ee66ba979603c794ece4e3bbc7f0f2436e9",
       "bytes": 2303839,

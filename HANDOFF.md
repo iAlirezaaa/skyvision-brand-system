@@ -71,3 +71,10 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Checks to run before commit: `python scripts/validate_repo.py`, `python scripts/check_inventory.py`, `git diff --check`, plus SVG render inspection. Update this handoff with observed results before calling the work ready.
 
 **Next production action:** work the next queued item in the approved sequence after completing LG-03 review and its reference-faithful source QC. Do not imply the larger work plan is finished.
+
+## 2026-11-06 — BG-04 draft produced
+
+- Generated `assets/production/BG/BG-04.png` as a quiet light 2D utility background based on the supplied wave/cloud/orbit language.
+- QC: PNG decodes, 1672×941 RGB, 16:9; visually inspected; broad clear center and restrained edge ornament; no obvious artifacts/text at preview size. Not print-tested, not contrast-tested, not owner-approved.
+- Added the asset brief, inventory record, raster manifest hash, asset register row, and updated human backlog snapshot to **10 drafts / 156 queued / 0 approved**.
+- Next in background sequence: BG-05 (minimal document/slide background), one asset at a time.

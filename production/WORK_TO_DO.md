@@ -7,8 +7,8 @@
 ## Current snapshot / وضعیت فعلی
 
 - ۱۶۶ خروجی برنامه‌ریزی‌شده در ۱۴ دسته.
-- ۹ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
-- ۱۵۷ مورد با وضعیت `queued` در صف ساخت هستند.
+- ۱۰ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
+- ۱۵۶ مورد با وضعیت `queued` در صف ساخت هستند.
 - چند دارایی SVG و تصویری خارج از inventory هم در ریپو هستند؛ این موارد جای شناسه‌ها و تحویل‌های backlog را نمی‌گیرند.
 
 ## فهرست کارهایی که باید انجام شوند
@@ -82,6 +82,6 @@
 
 ## English summary
 
-The production plan contains **166 deliverables across 14 families**. Current inventory snapshot: **9 drafts, 157 queued, 0 approved**. This document is the actionable work-to-do summary; individual IDs, priorities, statuses and target paths are tracked in the full backlog and machine-readable inventory. Planned work covers backgrounds, logo studies, color and typography, motifs, icons, UI components, desktop/mobile product screens, UX edge states, website/marketing, brand applications, motion, and QA/handoff.
+The production plan contains **166 deliverables across 14 families**. Current inventory snapshot: **10 drafts, 156 queued, 0 approved**. This document is the actionable work-to-do summary; individual IDs, priorities, statuses and target paths are tracked in the full backlog and machine-readable inventory. Planned work covers backgrounds, logo studies, color and typography, motifs, icons, UI components, desktop/mobile product screens, UX edge states, website/marketing, brand applications, motion, and QA/handoff.
 
 See the Persian sections above for the detailed checklist, and use [`ASSET_BACKLOG.md`](ASSET_BACKLOG.md) plus [`ASSET_INVENTORY.json`](ASSET_INVENTORY.json) for stable IDs, briefs, target paths and live status. Existing drafts remain unapproved until explicit owner acceptance.
