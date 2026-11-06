@@ -65,6 +65,16 @@ See [production inventory](../production/ASSET_INVENTORY.json) for the 166-asset
 ## Live vector asset studies
 New original SVG motif studies under `assets/svg/` are editable **proposals**. Their existence does not imply final logo approval.
 
+### Isolated transparent vector motifs
+
+| File | Subject | QC |
+|---|---|---|
+| `assets/svg/skyvision-crescent-motif.svg` | Crescent with small orbit/star details | XML parses; viewBox present; no background rectangle; rendered preview inspected. |
+| `assets/svg/skyvision-cloud-curl-motif.svg` | Single cloud curl flowing into a ribbon | XML parses; viewBox present; no background rectangle; rendered preview inspected. |
+| `assets/svg/skyvision-compass-star-motif.svg` | Four-point compass star and orbit rings | XML parses; viewBox present; no background rectangle; rendered preview inspected. |
+
+These are standalone transparent SVGs outside the 166-image inventory, intended as reusable decorations. They do not replace or redefine the circular primary logo study.
+
 ## Asset submission protocol
 1. Confirm artwork publishing permissions and repository visibility.
 2. Copy originals byte-for-byte from the downloadable archive without renaming internally.

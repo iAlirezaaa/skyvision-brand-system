@@ -93,3 +93,9 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Generated and added BG-01 and BG-07–BG-12 as separate PNG files; the existing BG-02–BG-06 remain recorded. All 12 background IDs now have repository files and remain drafts.
 - QC pass checked image decode, dimensions, RGB mode and visual composition. BG-09/10 were tiled 2×2; no obvious visual seams, but measured opposing-edge RGB differences mean exact pixel seamlessness is not certified and remains an explicit QC follow-up.
 - Updated per-ID inventory aspect ratios, manifest hashes, briefs, asset register and work-to-do counts. No background is approved.
+
+## 2026-11-06 — isolated transparent vector motifs
+
+- Added three editable SVG cutouts: crescent, cloud/ribbon curl, and compass star. They have transparent canvases and remain separate from the circular primary logo study.
+- QC: XML parsed, viewBox present, no background rectangle; each was rendered in Edge and visually inspected. These are supporting motif proposals, not approved identity marks.
+- Updated SVG index, asset register and the Persian work list.

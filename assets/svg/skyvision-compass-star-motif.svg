@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision compass star motif — transparent vector study</title>
+  <desc id="desc">A single four-point compass star with a delicate orbital ring, isolated on transparency.</desc>
+  <g fill="none" stroke="#D7B686" stroke-linecap="round">
+    <circle cx="128" cy="128" r="72" stroke-width="1.4" opacity=".72"/>
+    <circle cx="128" cy="128" r="88" stroke-width=".8" stroke-dasharray="1 7" opacity=".65"/>
+    <path d="M128 15v52M128 189v52M15 128h52M189 128h52" stroke-width="1.1" opacity=".8"/>
+  </g>
+  <path d="M128 62 143 113 194 128 143 143 128 194 113 143 62 128 113 113Z" fill="#D7B686"/>
+  <path d="m128 91 8 29 29 8-29 8-8 29-8-29-29-8 29-8Z" fill="#F3E6D4"/>
+  <circle cx="128" cy="128" r="5" fill="#8EABBA" stroke="#D7B686" stroke-width="1.5"/>
+</svg>

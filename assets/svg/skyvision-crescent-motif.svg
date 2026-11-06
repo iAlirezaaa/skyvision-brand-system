@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision crescent motif — transparent vector study</title>
+  <desc id="desc">An ivory and mist-blue crescent with fine muted-gold orbit detailing, isolated on transparency.</desc>
+  <defs>
+    <linearGradient id="moon" x1=".15" y1=".15" x2=".85" y2=".9">
+      <stop offset="0" stop-color="#F3E6D4"/>
+      <stop offset=".52" stop-color="#EBD9C9"/>
+      <stop offset="1" stop-color="#8EABBA"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#D7B686" stroke-linecap="round">
+    <path d="M182 32a98 98 0 1 0 42 177A82 82 0 0 1 182 32Z" fill="url(#moon)" stroke-width="2.5"/>
+    <path d="M194 49a83 83 0 0 0 25 145" stroke-width="1.1" opacity=".78"/>
+    <path d="M132 20v18M132 218v18M31 128h19M206 128h19" stroke-width="1.2" opacity=".72"/>
+    <circle cx="132" cy="25" r="3" fill="#D7B686"/>
+    <circle cx="132" cy="231" r="3" fill="#D7B686"/>
+  </g>
+  <path d="m91 92 4 12 12 4-12 4-4 12-4-12-12-4 12-4 4-12Z" fill="#D7B686"/>
+  <circle cx="91" cy="108" r="2" fill="#F3E6D4"/>
+</svg>
