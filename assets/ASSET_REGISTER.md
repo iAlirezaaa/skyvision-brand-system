@@ -39,6 +39,7 @@
 | BG-10 | `assets/production/BG/BG-10.png` | 1254×1254 RGB; light cloud/wave/orbit repeat tile. 2×2 tiled preview has no obvious seam; exact pixel seamlessness not certified. Draft. |
 | BG-11 | `assets/production/BG/BG-11.png` | 1672×941 RGB; midnight title background with open left text area and 2D ribbon/orbit artwork weighted right. Draft. |
 | BG-12 | `assets/production/BG/BG-12.png` | 1672×941 RGB; minimal midnight orbit-only backdrop with clear center. Draft. |
+| IC-01 | `assets/production/IC/IC-01.png` | 1600×900 RGB; five primary navigation icon concepts on midnight navy. Rendered from editable `IC-01.svg`; draft, not tested at 16px. |
 | BG-06 | `assets/production/BG/BG-06.png` | 941×1672 RGB; visual pass as portrait dark wallpaper. |
 | MO-01 | `assets/production/MO/MO-01-logo-signature.gif` | 640×640, 36 frames, 90 ms/frame, infinite loop; code-drawn animation, reviewed visually. |
 | MO-02 | `assets/production/MO/MO-02-orbit-loop.gif` | 640×640, 24 frames, 90 ms/frame, infinite loop; seam mean absolute RGB difference 0.18/255. |

@@ -105,3 +105,9 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Added separate light and dark SVG pattern tiles at `assets/svg/skyvision-seamless-pattern-*.svg`; both use a 256×256 SVG user-space tile.
 - Rendered both at 512×512 in Edge, tiled as 2×2 previews, inspected visually, and measured internal join RGB difference at 0 in both axes.
 - Kept earlier generated BG-09/BG-10 PNGs as exploratory drafts with their limitation recorded; the new SVGs are exact-repeat masters.
+
+## 2026-11-06 — IC-01 primary navigation icon draft
+
+- Created `assets/production/IC/IC-01.svg` and rendered its 1600×900 PNG preview for Home, Projects, Tasks, Team and Focus.
+- QC: source SVG parses; PNG decodes and dimensions/hash are recorded; visual preview inspected. Small-size (16px), Persian/RTL and product-context tests remain open.
+- Updated inventory, brief, backlog, manifest and asset register. IC-01 remains draft; no approval implied.

@@ -325,6 +325,17 @@
       "qc": "Decoded and visually inspected; sparse edge orbits and clear center. Not approved."
     },
     {
+      "path": "assets/production/IC/IC-01.png",
+      "sha256": "cfa982d0e141d582b928e8c40bd9b0a4aa4ce9d3d8cfe76df75a715778da0cad",
+      "bytes": 62591,
+      "width": 1600,
+      "height": 900,
+      "format": "PNG RGB",
+      "provenance": "Rendered with Microsoft Edge from assets/production/IC/IC-01.svg",
+      "status": "draft",
+      "qc": "PNG decodes; 1600x900 RGB; 16:9. Five independent outline icons and labels visually inspected. Small-size legibility and product integration are not yet validated."
+    },
+    {
       "path": "assets/production/BG/BG-07.png",
       "sha256": "778bb87d941ac73de7e7a47d985747eaf6bb4338a2d96f50bb10de3731d85d8a",
       "bytes": 1164501,

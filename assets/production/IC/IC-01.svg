@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sky Vision primary navigation icon family</title>
+  <desc id="desc">Five consistent two-dimensional outline icons for Home, Projects, Tasks, Team and Focus, drawn in muted gold on midnight navy.</desc>
+  <rect width="1600" height="900" fill="#0B1220"/>
+  <g fill="none" stroke="#D7B686" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Home -->
+    <path d="M130 270 260 165l130 105v152H300v-95h-80v95h-90z"/>
+    <!-- Projects / folder -->
+    <path d="M445 225h105l34 38h126v158H445z"/>
+    <path d="M445 270h265" stroke="#8EABBA" stroke-width="7"/>
+    <!-- Tasks / checklist -->
+    <rect x="770" y="190" width="220" height="230" rx="18"/>
+    <path d="m812 252 14 14 27-31m-41 87 14 14 27-31m-41 87 14 14 27-31M879 252h64m-64 68h64m-64 68h64"/>
+    <!-- Team -->
+    <circle cx="1180" cy="232" r="42"/>
+    <circle cx="1310" cy="242" r="34" stroke="#8EABBA" stroke-width="7"/>
+    <path d="M1100 415c8-65 35-96 80-96s73 31 80 96m-15 0c5-48 25-72 55-72s48 24 55 72"/>
+    <!-- Focus / compass -->
+    <circle cx="1510" cy="300" r="112" stroke="#8EABBA" stroke-width="7"/>
+    <path d="M1510 214v172m-86-86h172m-147-61 122 122m0-122-122 122" stroke-width="7"/>
+    <path d="m1510 246 20 34 34 20-34 20-20 34-20-34-34-20 34-20z" fill="#D7B686" stroke="none"/>
+  </g>
+  <g fill="#F3E6D4" font-family="Georgia, serif" font-size="42" text-anchor="middle" letter-spacing="2">
+    <text x="260" y="560">HOME</text>
+    <text x="575" y="560">PROJECTS</text>
+    <text x="880" y="560">TASKS</text>
+    <text x="1180" y="560">TEAM</text>
+    <text x="1510" y="560">FOCUS</text>
+  </g>
+  <g fill="#8EABBA" font-family="Arial, sans-serif" font-size="23" text-anchor="middle" letter-spacing="3">
+    <text x="800" y="735">PRIMARY NAVIGATION · 2D OUTLINE SET</text>
+  </g>
+</svg>

@@ -7,8 +7,8 @@
 ## Current snapshot / وضعیت فعلی
 
 - ۱۶۶ خروجی برنامه‌ریزی‌شده در ۱۴ دسته.
-- ۱۷ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
-- ۱۴۹ مورد با وضعیت `queued` در صف ساخت هستند.
+- ۱۸ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
+- ۱۴۸ مورد با وضعیت `queued` در صف ساخت هستند.
 - ۱۲ قالب سند و کسب‌وکار هم در [فهرست اسناد](DOCUMENT_BACKLOG.md) برنامه‌ریزی شده‌اند؛ این موارد جزو ۱۶۶ تصویر inventory نیستند.
 - چند دارایی SVG و تصویری خارج از inventory هم در ریپو هستند؛ این موارد جای شناسه‌ها و تحویل‌های backlog را نمی‌گیرند.
 - سه موتیف مستقل SVG بدون پس‌زمینه (هلال، ابر/روبان، ستاره‌ی قطب‌نما) و دو پترن تکرارشونده‌ی برداری روشن/تیره نیز به‌عنوان عناصر کمکی اضافه شده‌اند.
@@ -84,6 +84,6 @@
 
 ## English summary
 
-The production plan contains **166 visual deliverables across 14 families** (17 drafts and 149 queued) plus **12 planned operational document templates** tracked separately. The first complete background batch (BG-01–BG-12) now has draft files; batch QC and revisions remain, especially strict seam verification for BG-09/10. Each asset retains its own ID and file. No output is approved yet.
+The production plan contains **166 visual deliverables across 14 families** (18 drafts and 148 queued) plus **12 planned operational document templates** tracked separately. The first complete background batch (BG-01–BG-12) and IC-01 each have draft files; batch QC and revisions remain. Each asset retains its own ID and file. No output is approved yet.
 
 See the Persian sections above for the detailed checklist, and use [`ASSET_BACKLOG.md`](ASSET_BACKLOG.md) plus [`ASSET_INVENTORY.json`](ASSET_INVENTORY.json) for stable IDs, briefs, target paths and live status. Existing drafts remain unapproved until explicit owner acceptance.
