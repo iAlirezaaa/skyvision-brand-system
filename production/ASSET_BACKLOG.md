@@ -2,14 +2,14 @@
 
 **Status:** Proposed execution queue · 2026-11-06
 **Total:** 166 individually tracked deliverables across 14 families.
-**Current inventory snapshot:** 10 drafts, 156 queued, 0 approved (see `ASSET_INVENTORY.json`).
-**Active work:** BG-04 is a quiet light background draft. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved. BG-01 is a draft with repository transfer/verification still pending.
+**Current inventory snapshot:** 11 drafts, 155 queued, 0 approved (see `ASSET_INVENTORY.json`).
+**Active work:** BG-05 is a minimal document background draft. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved. BG-01 is a draft with repository transfer/verification still pending.
 
 ## How to use this list
 
-This file is the human-readable **list of work to do** in the repository. Every row below is a planned production task with a stable ID, priority and status. `queued` means the task remains to be done; it does not mean an output exists. The machine-readable `ASSET_INVENTORY.json` is authoritative for live status and exact file paths. Work through one asset ID at a time, following its brief and `DELIVERY_STANDARD.md`; update both this list and the inventory when work changes. Draft work is not approved identity.
+This file is the human-readable **visual production list of work to do** in the repository. Every row below is a planned task with a stable ID, priority and status. `queued` means the task remains to be done; it does not mean an output exists. The machine-readable `ASSET_INVENTORY.json` is authoritative for live status and exact file paths. Generate queued visuals in coherent batches first, preserving one standalone deliverable per ID; then run QC across the batch and revise failed items before moving them to review. Update the list and inventory as each batch is added. Draft work is not approved identity. Operational documents such as PowerPoint and contract templates are tracked separately in [`DOCUMENT_BACKLOG.md`](DOCUMENT_BACKLOG.md).
 
-> **Exactly one image per asset ID**. If a deliverable contains an icon collection, make one clean overview sheet, not several collages. Do not combine unrelated IDs into one image. Finish acceptance, owner review and source recording before marking APPROVED or proceeding.
+> **Exactly one standalone image per visual asset ID**. If a deliverable contains an icon collection, make one clean overview sheet, not several unrelated collages. Do not combine unrelated IDs into one image. Batch generation is allowed; QC and owner review remain required before approval.
 
 ## Production status
 
@@ -23,7 +23,7 @@ This file is the human-readable **list of work to do** in the repository. Every 
 
 | Family | Count | Current state |
 |---|---:|---|
-| BG — Backgrounds | 12 | BG-01–BG-04 and BG-06 draft; 7 queued |
+| BG — Backgrounds | 12 | BG-01–BG-06 draft; 6 queued |
 | LG — Logo and marks | 10 | LG-03 draft; 9 queued |
 | CL — Color system | 8 | Queued |
 | TY — Typography | 8 | Queued |
@@ -50,7 +50,7 @@ Hero and utility imagery. Default aspect **16:9**; final dimension/export policy
 | BG-02 | Quiet secondary dark background | P0 | draft |
 | BG-03 | Primary light celestial hero background | P0 | draft |
 | BG-04 | Quiet secondary light background | P0 | draft |
-| BG-05 | Minimal slide/document background | P1 | queued |
+| BG-05 | Minimal slide/document background | P1 | draft |
 | BG-06 | Mobile dark celestial wallpaper | P1 | draft |
 | BG-07 | Mobile light celestial wallpaper | P1 | queued |
 | BG-08 | Footer wave divider background | P1 | queued |
@@ -307,10 +307,10 @@ Evidence and output standards. Default aspect **16:9**; final dimension/export p
 ## Sequencing / critical path
 
 1. **BG-01** — approve/revise primary dark hero; preserve one-frame standalone composition. See [brief](briefs/BG-01.md).
-2. **BG-02**, then **BG-03**, then **BG-04** — build dark/light background system one at a time.
-3. **LG-01** — primary logo study; no final identity approval implied.
-4. **CL-01** — palette reference sheet; validate token contrast independently.
-5. **TY-01**, **MT-01**, **IC-01** — one sheet each, then foundations and PM flows.
+2. Generate the remaining background family as a cohesive batch, then QC and revise each image against its ID brief.
+3. Generate the logo-study batch while preserving separate files per ID; no final identity approval implied.
+4. Generate the color and typography foundation batch; validate token contrast independently.
+5. Generate motif and icon families in coherent batches, then foundations and PM flows.
 
 The next candidate is not automatically approved or created by completing an earlier task. Every approval must be explicit; revise the queue after feedback.
 

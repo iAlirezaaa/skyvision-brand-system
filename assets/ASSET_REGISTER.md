@@ -31,6 +31,7 @@
 | BG-02 | `assets/production/BG/BG-02.png` | 1672×941 RGB; visual pass as quiet dark background with clear center. |
 | BG-03 | `assets/production/BG/BG-03.png` | 1672×941 RGB; visual pass as quiet light background with clear text area. |
 | BG-04 | `assets/production/BG/BG-04.png` | 1672×941 RGB; visual pass as quiet ivory utility background, open center, restrained lower wave/clouds and sparse gold orbit lines. Draft; not contrast-tested or approved. |
+| BG-05 | `assets/production/BG/BG-05.png` | 1672×941 RGB; quiet ivory document background with ample reading space and a single lower-right ribbon motif. Draft; not print-tested or approved. |
 | BG-06 | `assets/production/BG/BG-06.png` | 941×1672 RGB; visual pass as portrait dark wallpaper. |
 | MO-01 | `assets/production/MO/MO-01-logo-signature.gif` | 640×640, 36 frames, 90 ms/frame, infinite loop; code-drawn animation, reviewed visually. |
 | MO-02 | `assets/production/MO/MO-02-orbit-loop.gif` | 640×640, 24 frames, 90 ms/frame, infinite loop; seam mean absolute RGB difference 0.18/255. |

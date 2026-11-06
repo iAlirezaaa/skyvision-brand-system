@@ -7,13 +7,14 @@
 ## Current snapshot / وضعیت فعلی
 
 - ۱۶۶ خروجی برنامه‌ریزی‌شده در ۱۴ دسته.
-- ۱۰ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
-- ۱۵۶ مورد با وضعیت `queued` در صف ساخت هستند.
+- ۱۱ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
+- ۱۵۵ مورد با وضعیت `queued` در صف ساخت هستند.
+- ۱۲ قالب سند و کسب‌وکار هم در [فهرست اسناد](DOCUMENT_BACKLOG.md) برنامه‌ریزی شده‌اند؛ این موارد جزو ۱۶۶ تصویر inventory نیستند.
 - چند دارایی SVG و تصویری خارج از inventory هم در ریپو هستند؛ این موارد جای شناسه‌ها و تحویل‌های backlog را نمی‌گیرند.
 
 ## فهرست کارهایی که باید انجام شوند
 
-هر مورد زیر یک فعالیت باقی‌مانده در برنامه‌ی تولید است. این خلاصه برای برنامه‌ریزی است؛ شناسه، وضعیت، اولویت و مسیر هر خروجی را در [backlog کامل](ASSET_BACKLOG.md) و [inventory](ASSET_INVENTORY.json) دنبال کنید. در هر نوبت فقط یک شناسه تولید و QC شود.
+هر مورد زیر یک فعالیت باقی‌مانده در برنامه‌ی تولید است. این خلاصه برای برنامه‌ریزی است؛ شناسه، وضعیت، اولویت و مسیر هر خروجی را در [backlog کامل](ASSET_BACKLOG.md) و [inventory](ASSET_INVENTORY.json) دنبال کنید. روال جدید: خروجی‌های تصویری را در batchهای مرتبط تولید کن، سپس کل batch را QC و موارد ناموفق را اصلاح کن. برای قالب‌های کاری مثل پاورپوینت و قرارداد، [فهرست اسناد](DOCUMENT_BACKLOG.md) را ببین.
 
 ### ۱. پس‌زمینه‌ها — ۸ مورد در صف
 
@@ -76,12 +77,12 @@
 5. حالت‌های تجربه‌ی کاربری، وب/بازاریابی و کاربردهای برند.
 6. موشن و بسته‌ی QC/handoff.
 
-برای هر شناسه فقط یک دارایی مستقل بسازید، QC و منشأ را ثبت کنید، سپس وضعیت را به `draft` ببرید. فایل‌های برداری قابل ویرایش می‌توانند منبع تکمیلی همان شناسه باشند. `approved` فقط پس از فایل واقعی در GitHub، بررسی ثبت‌شده و پذیرش صریح مالک مجاز است.
+تصاویر را در دسته‌های هم‌خانواده بسازید، اما برای هر شناسه یک فایل مستقل نگه دارید؛ بعد کل دسته را QC کنید و موارد ناموفق را اصلاح کنید. فایل‌های برداری قابل ویرایش می‌توانند منبع تکمیلی همان شناسه باشند. `approved` فقط پس از فایل واقعی در GitHub، بررسی ثبت‌شده و پذیرش صریح مالک مجاز است.
 
 ---
 
 ## English summary
 
-The production plan contains **166 deliverables across 14 families**. Current inventory snapshot: **10 drafts, 156 queued, 0 approved**. This document is the actionable work-to-do summary; individual IDs, priorities, statuses and target paths are tracked in the full backlog and machine-readable inventory. Planned work covers backgrounds, logo studies, color and typography, motifs, icons, UI components, desktop/mobile product screens, UX edge states, website/marketing, brand applications, motion, and QA/handoff.
+The production plan contains **166 visual deliverables across 14 families** (11 drafts and 155 queued) plus **12 planned operational document templates** tracked separately. Generate related visual tasks in batches, then perform batch QC and iterate; each asset still has an individual ID and file. No output is approved yet.
 
 See the Persian sections above for the detailed checklist, and use [`ASSET_BACKLOG.md`](ASSET_BACKLOG.md) plus [`ASSET_INVENTORY.json`](ASSET_INVENTORY.json) for stable IDs, briefs, target paths and live status. Existing drafts remain unapproved until explicit owner acceptance.

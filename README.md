@@ -72,6 +72,7 @@ See the bilingual [Work to Do list](production/WORK_TO_DO.md) for the practical 
 **166 proposed individual visual deliverables**, organized into 14 families. These are the full *work plan*, not completed images.
 
 - [Full human-readable production backlog](production/ASSET_BACKLOG.md)
+- [PowerPoint, contract and operational document backlog](production/DOCUMENT_BACKLOG.md)
 - [Machine-readable inventory with IDs, status, priority and output paths](production/ASSET_INVENTORY.json)
 - [Production/export standard](production/DELIVERY_STANDARD.md)
 - [First item brief: BG-01](production/briefs/BG-01.md)

@@ -19,7 +19,7 @@ Never overwrite original images. Derivative works must have a distinct filename,
 
 ## Visual asset production contract
 
-Read `production/ASSET_INVENTORY.json`, `production/ASSET_BACKLOG.md`, `production/DELIVERY_STANDARD.md` and the exact `production/briefs/<ID>.md` before creating a visual. **One visual deliverable per asset ID, one at a time**, not a mass collage. Do not skip a queued item unless owner or dependency review changes order. Record evidence and request acceptance before marking `approved`; never silently upgrade a conversation-only concept or a missing raster.
+Read `production/ASSET_INVENTORY.json`, `production/ASSET_BACKLOG.md`, `production/DELIVERY_STANDARD.md` and the exact `production/briefs/<ID>.md` before creating a visual. Per owner direction, generate related visual deliverables in batches first, then perform batch QC and iterative correction. Maintain one standalone deliverable per asset ID; never combine unrelated tasks into a collage. Record evidence and request acceptance before marking `approved`; never silently upgrade a conversation-only concept or a missing raster. Track non-image working documents in `production/DOCUMENT_BACKLOG.md`.
 
 **Do not change the canonical theme palette to conceal failing color contrast without an owner-approved ADR.** Produce measured audit and proposal first (`docs/ACCESSIBILITY_COLOR_AUDIT.md`). CI can validate structure; it cannot certify aesthetics, rights or accessibility.
 

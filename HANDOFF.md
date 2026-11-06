@@ -77,4 +77,13 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Generated `assets/production/BG/BG-04.png` as a quiet light 2D utility background based on the supplied wave/cloud/orbit language.
 - QC: PNG decodes, 1672×941 RGB, 16:9; visually inspected; broad clear center and restrained edge ornament; no obvious artifacts/text at preview size. Not print-tested, not contrast-tested, not owner-approved.
 - Added the asset brief, inventory record, raster manifest hash, asset register row, and updated human backlog snapshot to **10 drafts / 156 queued / 0 approved**.
-- Next in background sequence: BG-05 (minimal document/slide background), one asset at a time.
+- Next in background sequence: BG-05 (minimal document/slide background).
+
+## 2026-11-06 — batch production workflow and BG-05
+
+- Following owner direction, changed production flow from per-ID generation/QC to **batch generation of related visual IDs, followed by batch QC and iterative correction**. Keep one standalone file per inventory ID and leave all unreviewed items in draft.
+- Added `assets/production/BG/BG-05.png`, a quiet ivory slide/document background with extensive negative space and a lower-right 2D ribbon. QC: decoded PNG, 1672×941 RGB, visually inspected at preview size; print and text contrast not verified.
+- Added BG-05 brief, manifest hash and asset-register entry; inventory is now **11 drafts / 155 queued / 0 approved**.
+- Added operational documents (PowerPoint, contract and related templates) to a separate document backlog, since those are not standalone image assets.
+- Added a 12-item operational document backlog covering a bilingual-ready PowerPoint template, contract form, proposal, SOW, briefs, intake, invoice, kickoff notes, change request, handoff checklist, asset request and NDA.
+- Contract and NDA are template placeholders only and require qualified local legal review; they are not represented as jurisdiction-ready legal forms.

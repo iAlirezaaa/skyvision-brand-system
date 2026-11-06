@@ -226,6 +226,17 @@
       "qc": "Decoded successfully; 16:9 dimensions and RGB mode verified; visually inspected at preview size. Quiet central field and restrained border ornament; no obvious artifacts or text. Print quality and text contrast not tested; not approved."
     },
     {
+      "path": "assets/production/BG/BG-05.png",
+      "sha256": "7ddbbd93f51be6ef03e1eebbf6b0b6becf9facdfa71a2346fbc3935d97ac3b8e",
+      "bytes": 2014031,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-05 using owner-supplied 2D ribbon/orbit direction",
+      "status": "draft",
+      "qc": "Decoded successfully; 16:9 dimensions and RGB mode verified; visually inspected at preview size. Quiet document composition with broad reading space and one lower-right ribbon ornament; no obvious artifacts or text. Print quality and text contrast not tested; not approved."
+    },
+    {
       "path": "assets/production/BG/BG-06.png",
       "sha256": "7153c8d3ae5311a3e8fdc8dbd49f0ee66ba979603c794ece4e3bbc7f0f2436e9",
       "bytes": 2303839,

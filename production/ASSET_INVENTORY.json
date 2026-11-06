@@ -83,15 +83,15 @@
       "category": "Backgrounds",
       "title": "Minimal slide/document background",
       "priority": "P1",
-      "status": "queued",
+      "status": "draft",
       "review": "not-approved",
       "format": "PNG",
       "deliverable": "exactly-one-image",
       "aspect_ratio": "16:9",
       "target": "assets/production/BG/BG-05.png",
-      "actual_repository_file": null,
-      "source_artifact": null,
-      "notes": null
+      "actual_repository_file": "assets/production/BG/BG-05.png",
+      "source_artifact": "Built-in image generation based on the owner-supplied two-dimensional wave and orbit references.",
+      "notes": "Draft QC: 1672x941 RGB PNG, 16:9. Warm-ivory document background with a very quiet reading field and one blue/ivory ribbon at the lower-right edge. No text or unrelated scene. Visually inspected at preview size; not print-tested or approved."
     },
     {
       "id": "BG-06",
