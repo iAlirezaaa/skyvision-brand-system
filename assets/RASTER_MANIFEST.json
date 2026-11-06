@@ -127,6 +127,17 @@
   ],
   "generated_assets": [
     {
+      "path": "assets/production/BG/BG-01.png",
+      "sha256": "75e9f85ee14ae30ab9e41ad1032646c60133e10fb41becbe4e231c3e3bcfce54",
+      "bytes": 1712474,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-01 from supplied 2D celestial ribbon logo reference",
+      "status": "draft",
+      "qc": "Decoded, dimensions and RGB verified; visually inspected. Open centered ring composition, 2D ribbon/cloud motifs, no text or obvious preview artifacts. Below 4K target; not approved."
+    },
+    {
       "height": 941,
       "status": "draft",
       "format": "PNG RGB",
@@ -246,6 +257,138 @@
       "provenance": "generated-for-this-repository",
       "status": "draft",
       "qc": "Visual review passed; see per-file notes and limitations in asset register."
+    },
+    {
+      "path": "assets/production/BG/BG-07.png",
+      "sha256": "778bb87d941ac73de7e7a47d985747eaf6bb4338a2d96f50bb10de3731d85d8a",
+      "bytes": 1164501,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-07 using supplied 2D ribbon/crescent/orbit reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; portrait 9:16 frame, clear upper field and matching motif family. Not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-08.png",
+      "sha256": "1241c6c975c8c649971761cbfb7521317b197cee5f63afa3f360f27d1edd4fc3",
+      "bytes": 1091437,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-08 using supplied 2D ribbon/cloud reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; lower-edge wave divider and quiet upper field. Not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-09.png",
+      "sha256": "3950904b574d3a7321c9b9544ae3402230d0c966632a460f93944c54fc104185",
+      "bytes": 1376134,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-09 and inspected as 2x2 tiled preview",
+      "status": "draft",
+      "qc": "No obvious seam in 2x2 preview. Opposite-edge RGB MAE 1.41 horizontal / 3.02 vertical; exact seamlessness not certified. Not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-10.png",
+      "sha256": "adacf5e79ec81f20bb9233e9cac199b62842de8c40f53d89a778eaa69ad3333d",
+      "bytes": 1417835,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-10 and inspected as 2x2 tiled preview",
+      "status": "draft",
+      "qc": "No obvious seam in 2x2 preview. Opposite-edge RGB MAE 1.67 horizontal / 1.37 vertical; exact seamlessness not certified. Not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-11.png",
+      "sha256": "a390439182944ba94616a6ec5db7f148e7aaef15ca927bdfbc6d6b40546fe627",
+      "bytes": 1341870,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-11 using supplied orbital ribbon logo reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; title safe area at left, ribbon/orbit artwork weighted right. Not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-12.png",
+      "sha256": "261a0ac4a881d17f63f7fafbada3d63e98e907f5a5273af9bbe0888aac5fdc10",
+      "bytes": 1235218,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-12 using supplied 2D orbit/star reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; sparse edge orbits and clear center. Not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-07.png",
+      "sha256": "778bb87d941ac73de7e7a47d985747eaf6bb4338a2d96f50bb10de3731d85d8a",
+      "bytes": 1164501,
+      "width": 941,
+      "height": 1672,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-07 using supplied 2D ribbon/crescent/orbit reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; portrait 9:16 frame, clear upper field, motif family consistent. Not brand-approved."
+    },
+    {
+      "path": "assets/production/BG/BG-08.png",
+      "sha256": "1241c6c975c8c649971761cbfb7521317b197cee5f63afa3f360f27d1edd4fc3",
+      "bytes": 1091437,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-08 using supplied 2D ribbon/cloud reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; quiet upper field with lower-edge wave divider. Not brand-approved."
+    },
+    {
+      "path": "assets/production/BG/BG-09.png",
+      "sha256": "3950904b574d3a7321c9b9544ae3402230d0c966632a460f93944c54fc104185",
+      "bytes": 1376134,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-09 and inspected as a 2x2 tiled preview",
+      "status": "draft",
+      "qc": "2x2 tiled preview shows no obvious seam. Opposite-edge RGB MAE: 1.41 horizontal, 3.02 vertical; exact pixel seamlessness not certified. Draft, not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-10.png",
+      "sha256": "adacf5e79ec81f20bb9233e9cac199b62842de8c40f53d89a778eaa69ad3333d",
+      "bytes": 1417835,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-10 and inspected as a 2x2 tiled preview",
+      "status": "draft",
+      "qc": "2x2 tiled preview shows no obvious seam. Opposite-edge RGB MAE: 1.67 horizontal, 1.37 vertical; exact pixel seamlessness not certified. Draft, not approved."
+    },
+    {
+      "path": "assets/production/BG/BG-11.png",
+      "sha256": "a390439182944ba94616a6ec5db7f148e7aaef15ca927bdfbc6d6b40546fe627",
+      "bytes": 1341870,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-11 using supplied 2D orbital ribbon reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; open left title area and right-weighted ribbon-orbit composition. Not brand-approved."
+    },
+    {
+      "path": "assets/production/BG/BG-12.png",
+      "sha256": "261a0ac4a881d17f63f7fafbada3d63e98e907f5a5273af9bbe0888aac5fdc10",
+      "bytes": 1235218,
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "provenance": "built-in-imagegen; generated for BG-12 using supplied 2D orbit/star reference",
+      "status": "draft",
+      "qc": "Decoded and visually inspected; sparse edge orbits and clear center. Not brand-approved."
     },
     {
       "path": "assets/production/MO/MO-01-logo-signature.gif",

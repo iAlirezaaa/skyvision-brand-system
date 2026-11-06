@@ -28,10 +28,17 @@
 
 | Inventory ID | File | QC result |
 |---|---|---|
+| BG-01 | `assets/production/BG/BG-01.png` | 1672×941 RGB; centered open circular 2D wave/cloud/orbit hero on midnight navy; draft, below 4K target. |
 | BG-02 | `assets/production/BG/BG-02.png` | 1672×941 RGB; visual pass as quiet dark background with clear center. |
 | BG-03 | `assets/production/BG/BG-03.png` | 1672×941 RGB; visual pass as quiet light background with clear text area. |
 | BG-04 | `assets/production/BG/BG-04.png` | 1672×941 RGB; visual pass as quiet ivory utility background, open center, restrained lower wave/clouds and sparse gold orbit lines. Draft; not contrast-tested or approved. |
 | BG-05 | `assets/production/BG/BG-05.png` | 1672×941 RGB; quiet ivory document background with ample reading space and a single lower-right ribbon motif. Draft; not print-tested or approved. |
+| BG-07 | `assets/production/BG/BG-07.png` | 941×1672 RGB; warm light mobile wallpaper with lower circular 2D ribbon motif and clear upper field. Draft. |
+| BG-08 | `assets/production/BG/BG-08.png` | 1672×941 RGB; 2D wave footer divider along lower edge, clear field above. Draft. |
+| BG-09 | `assets/production/BG/BG-09.png` | 1254×1254 RGB; dark orbital repeat tile. 2×2 tiled preview has no obvious seam; exact pixel seamlessness not certified. Draft. |
+| BG-10 | `assets/production/BG/BG-10.png` | 1254×1254 RGB; light cloud/wave/orbit repeat tile. 2×2 tiled preview has no obvious seam; exact pixel seamlessness not certified. Draft. |
+| BG-11 | `assets/production/BG/BG-11.png` | 1672×941 RGB; midnight title background with open left text area and 2D ribbon/orbit artwork weighted right. Draft. |
+| BG-12 | `assets/production/BG/BG-12.png` | 1672×941 RGB; minimal midnight orbit-only backdrop with clear center. Draft. |
 | BG-06 | `assets/production/BG/BG-06.png` | 941×1672 RGB; visual pass as portrait dark wallpaper. |
 | MO-01 | `assets/production/MO/MO-01-logo-signature.gif` | 640×640, 36 frames, 90 ms/frame, infinite loop; code-drawn animation, reviewed visually. |
 | MO-02 | `assets/production/MO/MO-02-orbit-loop.gif` | 640×640, 24 frames, 90 ms/frame, infinite loop; seam mean absolute RGB difference 0.18/255. |

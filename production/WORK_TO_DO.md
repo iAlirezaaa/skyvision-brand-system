@@ -7,8 +7,8 @@
 ## Current snapshot / وضعیت فعلی
 
 - ۱۶۶ خروجی برنامه‌ریزی‌شده در ۱۴ دسته.
-- ۱۱ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
-- ۱۵۵ مورد با وضعیت `queued` در صف ساخت هستند.
+- ۱۷ مورد دارای وضعیت `draft`؛ هیچ موردی تأیید نهایی نشده است.
+- ۱۴۹ مورد با وضعیت `queued` در صف ساخت هستند.
 - ۱۲ قالب سند و کسب‌وکار هم در [فهرست اسناد](DOCUMENT_BACKLOG.md) برنامه‌ریزی شده‌اند؛ این موارد جزو ۱۶۶ تصویر inventory نیستند.
 - چند دارایی SVG و تصویری خارج از inventory هم در ریپو هستند؛ این موارد جای شناسه‌ها و تحویل‌های backlog را نمی‌گیرند.
 
@@ -16,7 +16,7 @@
 
 هر مورد زیر یک فعالیت باقی‌مانده در برنامه‌ی تولید است. این خلاصه برای برنامه‌ریزی است؛ شناسه، وضعیت، اولویت و مسیر هر خروجی را در [backlog کامل](ASSET_BACKLOG.md) و [inventory](ASSET_INVENTORY.json) دنبال کنید. روال جدید: خروجی‌های تصویری را در batchهای مرتبط تولید کن، سپس کل batch را QC و موارد ناموفق را اصلاح کن. برای قالب‌های کاری مثل پاورپوینت و قرارداد، [فهرست اسناد](DOCUMENT_BACKLOG.md) را ببین.
 
-### ۱. پس‌زمینه‌ها — ۸ مورد در صف
+### ۱. پس‌زمینه‌ها — ۱۲ پیش‌نویس ساخته شده؛ QC و اصلاح دسته‌ای باقی است
 
 پس‌زمینه‌ی روشن خلوت، پس‌زمینه‌ی سند/اسلاید، والپیپر روشن موبایل، جداکننده‌ی موجی، tileهای روشن و تاریک با لبه‌ی واقعاً seamless، پس‌زمینه‌ی عنوان ارائه و پس‌زمینه‌ی مینیمال مدار.
 
@@ -83,6 +83,6 @@
 
 ## English summary
 
-The production plan contains **166 visual deliverables across 14 families** (11 drafts and 155 queued) plus **12 planned operational document templates** tracked separately. Generate related visual tasks in batches, then perform batch QC and iterate; each asset still has an individual ID and file. No output is approved yet.
+The production plan contains **166 visual deliverables across 14 families** (17 drafts and 149 queued) plus **12 planned operational document templates** tracked separately. The first complete background batch (BG-01–BG-12) now has draft files; batch QC and revisions remain, especially strict seam verification for BG-09/10. Each asset retains its own ID and file. No output is approved yet.
 
 See the Persian sections above for the detailed checklist, and use [`ASSET_BACKLOG.md`](ASSET_BACKLOG.md) plus [`ASSET_INVENTORY.json`](ASSET_INVENTORY.json) for stable IDs, briefs, target paths and live status. Existing drafts remain unapproved until explicit owner acceptance.

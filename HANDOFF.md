@@ -87,3 +87,9 @@ Paths linked; design rules recorded; checks passed with evidence; contrast/RTL r
 - Added operational documents (PowerPoint, contract and related templates) to a separate document backlog, since those are not standalone image assets.
 - Added a 12-item operational document backlog covering a bilingual-ready PowerPoint template, contract form, proposal, SOW, briefs, intake, invoice, kickoff notes, change request, handoff checklist, asset request and NDA.
 - Contract and NDA are template placeholders only and require qualified local legal review; they are not represented as jurisdiction-ready legal forms.
+
+## 2026-11-06 — complete background generation batch
+
+- Generated and added BG-01 and BG-07–BG-12 as separate PNG files; the existing BG-02–BG-06 remain recorded. All 12 background IDs now have repository files and remain drafts.
+- QC pass checked image decode, dimensions, RGB mode and visual composition. BG-09/10 were tiled 2×2; no obvious visual seams, but measured opposing-edge RGB differences mean exact pixel seamlessness is not certified and remains an explicit QC follow-up.
+- Updated per-ID inventory aspect ratios, manifest hashes, briefs, asset register and work-to-do counts. No background is approved.

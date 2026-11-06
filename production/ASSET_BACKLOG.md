@@ -2,8 +2,8 @@
 
 **Status:** Proposed execution queue · 2026-11-06
 **Total:** 166 individually tracked deliverables across 14 families.
-**Current inventory snapshot:** 11 drafts, 155 queued, 0 approved (see `ASSET_INVENTORY.json`).
-**Active work:** BG-05 is a minimal document background draft. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved. BG-01 is a draft with repository transfer/verification still pending.
+**Current inventory snapshot:** 17 drafts, 149 queued, 0 approved (see `ASSET_INVENTORY.json`).
+**Active work:** All 12 background IDs now have repository PNG drafts. BG-09/10 have tiled visual checks but strict pixel seamlessness still needs QC. LG-03 has an exploratory PNG and a separate editable SVG study; both remain unapproved.
 
 ## How to use this list
 
@@ -23,7 +23,7 @@ This file is the human-readable **visual production list of work to do** in the 
 
 | Family | Count | Current state |
 |---|---:|---|
-| BG — Backgrounds | 12 | BG-01–BG-06 draft; 6 queued |
+| BG — Backgrounds | 12 | 12 draft; 0 queued |
 | LG — Logo and marks | 10 | LG-03 draft; 9 queued |
 | CL — Color system | 8 | Queued |
 | TY — Typography | 8 | Queued |
@@ -52,12 +52,12 @@ Hero and utility imagery. Default aspect **16:9**; final dimension/export policy
 | BG-04 | Quiet secondary light background | P0 | draft |
 | BG-05 | Minimal slide/document background | P1 | draft |
 | BG-06 | Mobile dark celestial wallpaper | P1 | draft |
-| BG-07 | Mobile light celestial wallpaper | P1 | queued |
-| BG-08 | Footer wave divider background | P1 | queued |
-| BG-09 | Dark seamless repeat tile | P1 | queued |
-| BG-10 | Light seamless repeat tile | P1 | queued |
-| BG-11 | Presentation title background | P1 | queued |
-| BG-12 | Abstract orbit-only UI backdrop | P1 | queued |
+| BG-07 | Mobile light celestial wallpaper | P1 | draft |
+| BG-08 | Footer wave divider background | P1 | draft |
+| BG-09 | Dark seamless repeat tile | P1 | draft |
+| BG-10 | Light seamless repeat tile | P1 | draft |
+| BG-11 | Presentation title background | P1 | draft |
+| BG-12 | Abstract orbit-only UI backdrop | P1 | draft |
 
 ### LG — Logo and marks
 
